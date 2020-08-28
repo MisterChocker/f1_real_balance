@@ -635,10 +635,10 @@
   <F1Aero>
     <m_aero_cd_min value="0.9896" />
     <m_aero_cd_max value="0.96" />
-    <m_aero_front_cl_maxf_maxr value="1.87935" />
-    <m_aero_front_cl_maxf_minr value="1.81905" />
-    <m_aero_front_cl_minf_maxr value="1.75875" />
-    <m_aero_front_cl_minf_minr value="1.77885" />
+    <m_aero_front_cl_maxf_maxr value="1.88135" />
+    <m_aero_front_cl_maxf_minr value="1.82005" />
+    <m_aero_front_cl_minf_maxr value="1.75975" />
+    <m_aero_front_cl_minf_minr value="1.77985" />
     <m_aero_front_wing_loss value="0.5" />
     <m_aero_max_front_height value="-0.015" />
     <m_aero_min_front_height value="0.045" />
