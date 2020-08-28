@@ -633,11 +633,11 @@
     </ConvexHullData>
   </ConvexHull>
   <F1Aero>
-    <m_aero_cd_min value="0.91" />
-    <m_aero_cd_max value="0.89" />
-    <m_aero_front_cl_maxf_maxr value="1.875" />
-    <m_aero_front_cl_maxf_minr value="1.815" />
-    <m_aero_front_cl_minf_maxr value="1.755" />
+    <m_aero_cd_min value="0.90" />
+    <m_aero_cd_max value="0.88" />
+    <m_aero_front_cl_maxf_maxr value="1.878" />
+    <m_aero_front_cl_maxf_minr value="1.818" />
+    <m_aero_front_cl_minf_maxr value="1.758" />
     <m_aero_front_cl_minf_minr value="1.775" />
     <m_aero_front_wing_loss value="0.5" />
     <m_aero_max_front_height value="-0.015" />
@@ -647,10 +647,10 @@
     <m_aeroSlipStreamAirDensityScaleLift value="0.87" />
     <m_aeroSlipStreamAirDensityScaleDrag value="0.85" />
     <m_aeroSlipStreamCarWidth value="1.5" />
-    <m_aero_rear_cl_maxf_maxr value="1.95" />
-    <m_aero_rear_cl_maxf_minr value="1.845" />
-    <m_aero_rear_cl_minf_maxr value="1.785" />
-    <m_aero_rear_cl_minf_minr value="1.85" />
+    <m_aero_rear_cl_maxf_maxr value="1.99" />
+    <m_aero_rear_cl_maxf_minr value="1.849" />
+    <m_aero_rear_cl_minf_maxr value="1.789" />
+    <m_aero_rear_cl_minf_minr value="1.89" />
     <m_aero_rear_wing_loss value="0.000000" />
     <m_aero_wing_front_drag value="1.000000" />
     <m_aero_wing_front_force value="1.000000" />
