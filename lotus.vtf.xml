@@ -228,8 +228,8 @@
     <FuelRevsLinear value="0.0003" />
     <FuelTorqueLinear value="0.003" />
     <FuelCapacity value="110" />
-    <COMY value="0.09" />
-    <COMZ value="0.14" />
+    <COMY value="0.14" />
+    <COMZ value="0.165" />
     <SizeX value="0.7" />
     <SizeY value="0.3" />
     <SizeZ value="0.500000" />
@@ -633,8 +633,8 @@
     </ConvexHullData>
   </ConvexHull>
   <F1Aero>
-    <m_aero_cd_min value="0.9702" />
-    <m_aero_cd_max value="0.9506" />
+    <m_aero_cd_min value="0.948" />
+    <m_aero_cd_max value="0.948" />
     <m_aero_front_cl_maxf_maxr value="1.87" />
     <m_aero_front_cl_maxf_minr value="1.81" />
     <m_aero_front_cl_minf_maxr value="1.75" />
