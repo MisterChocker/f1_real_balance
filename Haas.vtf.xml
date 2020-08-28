@@ -242,7 +242,7 @@
     <FuelPowerScaleLean value="0.96" />
     <FuelPowerScaleStandard value="1.000000" />
     <FuelPowerScaleRich value="1.03" />
-    <FuelPowerScaleMax value="1.06" />
+    <FuelPowerScaleMax value="1.07" />
     <FuelRevsScaleLean value="1" />
     <FuelRevsScaleStandard value="1.000000" />
     <FuelRevsScaleRich value="1.000000" />
@@ -633,8 +633,8 @@
     </ConvexHullData>
   </ConvexHull>
   <F1Aero>
-    <m_aero_cd_min value="0.9506" />
-    <m_aero_cd_max value="0.9506" />
+    <m_aero_cd_min value="0.9706" />
+    <m_aero_cd_max value="0.9606" />
     <m_aero_front_cl_maxf_maxr value="1.76715" />
     <m_aero_front_cl_maxf_minr value="1.71044993" />
     <m_aero_front_cl_minf_maxr value="1.65375" />

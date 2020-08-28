@@ -634,8 +634,8 @@
     </ConvexHullData>
   </ConvexHull>
   <F1Aero>
-    <m_aero_cd_min value="0.9702" />
-    <m_aero_cd_max value="1.00395" />
+    <m_aero_cd_min value="1.01395" />
+    <m_aero_cd_max value="0.9902" />
     <m_aero_front_cl_maxf_maxr value="1.7765" />
     <m_aero_front_cl_maxf_minr value="1.7195" />
     <m_aero_front_cl_minf_maxr value="1.6625" />
