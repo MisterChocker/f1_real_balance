@@ -228,8 +228,8 @@
     <FuelRevsLinear value="0.0003" />
     <FuelTorqueLinear value="0.003" />
     <FuelCapacity value="110" />
-    <COMY value="0.11" />
-    <COMZ value="0.148" />
+    <COMY value="0.09" />
+    <COMZ value="0.14" />
     <SizeX value="0.7" />
     <SizeY value="0.3" />
     <SizeZ value="0.500000" />
@@ -314,7 +314,7 @@
     </ATCStrengthPeakSlipFactorSplineWet>
   </BrakeECU>
   <Chassis>
-    <Mass value="735" />
+    <Mass value="739" />
     <MOIX value="850" />
     <MOIY value="2200" />
     <MOIZ value="150" />
@@ -633,12 +633,12 @@
     </ConvexHullData>
   </ConvexHull>
   <F1Aero>
-    <m_aero_cd_min value="0.904" />
-    <m_aero_cd_max value="0.894" />
-    <m_aero_front_cl_maxf_maxr value="1.87" />
-    <m_aero_front_cl_maxf_minr value="1.81" />
-    <m_aero_front_cl_minf_maxr value="1.75" />
-    <m_aero_front_cl_minf_minr value="1.77" />
+    <m_aero_cd_min value="0.9702" />
+    <m_aero_cd_max value="0.9506" />
+    <m_aero_front_cl_maxf_maxr value="1.7952" />
+    <m_aero_front_cl_maxf_minr value="1.73759985" />
+    <m_aero_front_cl_minf_maxr value="1.68" />
+    <m_aero_front_cl_minf_minr value="1.69919991" />
     <m_aero_front_wing_loss value="0.5" />
     <m_aero_max_front_height value="-0.015" />
     <m_aero_min_front_height value="0.045" />

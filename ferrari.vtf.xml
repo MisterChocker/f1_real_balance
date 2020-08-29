@@ -4,23 +4,23 @@
   <Engine>
     <RevsPowerSpline numVertices="18">
       <SplineElement x="0" y="0" op="=" />
-      <SplineElement x="69.9528" y="7699.20947265625" op="=" />
-      <SplineElement x="121.655289" y="19494.87109375" op="=" />
-      <SplineElement x="176.0811" y="36710.6796875" op="=" />
-      <SplineElement x="247.059937" y="65777.9375" op="=" />
-      <SplineElement x="326.8007" y="107035.1875" op="=" />
-      <SplineElement x="413.583679" y="162129.234375" op="=" />
-      <SplineElement x="515.631958" y="232639.421875" op="=" />
-      <SplineElement x="626.9321" y="311559.84375" op="=" />
-      <SplineElement x="759.612061" y="384561.25" op="=" />
-      <SplineElement x="904.120667" y="460396.09375" op="=" />
-      <SplineElement x="995.594" y="509637.125" op="=" />
-      <SplineElement x="1046.77869" y="529457.1875" op="=" />
-      <SplineElement x="1099.97632" y="544361" op="=" />
-      <SplineElement x="1257.26538" y="542438.4375" op="=" />
-      <SplineElement x="1309.14978" y="502383.875" op="=" />
-      <SplineElement x="1384.49988" y="423593.0625" op="=" />
-      <SplineElement x="1466.07654" y="335633.28125" op="=" />
+      <SplineElement x="69.9528" y="7910.1468370014991" op="=" />
+      <SplineElement x="121.655289" y="20028.977040683567" op="=" />
+      <SplineElement x="176.0811" y="37716.45019379881" op="=" />
+      <SplineElement x="247.059937" y="67580.075107468729" op="=" />
+      <SplineElement x="326.8007" y="109967.65761341737" op="=" />
+      <SplineElement x="413.583679" y="166571.13362110223" op="=" />
+      <SplineElement x="515.631958" y="239013.10173579981" op="=" />
+      <SplineElement x="626.9321" y="320095.75717117894" op="=" />
+      <SplineElement x="759.612061" y="395097.15839718754" op="=" />
+      <SplineElement x="904.120667" y="473009.68750448339" op="=" />
+      <SplineElement x="995.594" y="523599.80790234864" op="=" />
+      <SplineElement x="1046.77869" y="543962.89220833988" op="=" />
+      <SplineElement x="1099.97632" y="559275" op="=" />
+      <SplineElement x="1257.26538" y="557299.77434210514" op="=" />
+      <SplineElement x="1309.14978" y="516147.81019736844" op="=" />
+      <SplineElement x="1384.49988" y="435198.35526315792" op="=" />
+      <SplineElement x="1466.07654" y="344828.72171052633" op="=" />
     </RevsPowerSpline>
     <RevsTurboLagSpline numVertices="4">
       <SplineElement x="0" y="1" op="=" />
@@ -53,7 +53,7 @@
     <TempWearFactorSpline numVertices="5">
       <SplineElement x="0" y="1" op="=" />
       <SplineElement x="300" y="1" op="=" />
-      <SplineElement x="403.15" y="1" op="=" />
+      <SplineElement x="400" y="1" op="=" />
       <SplineElement x="440" y="2.5" op="=" />
       <SplineElement x="480" y="5" op="=" />
     </TempWearFactorSpline>
@@ -82,13 +82,14 @@
     <RadiatorSurfaceArea value="10" />
     <InitialTemperature value="363.15" />
     <WearICERate value="0.032" />
-    <WearICERevsSpline numVertices="6">
+    <WearICERevsSpline numVertices="7">
       <SplineElement x="1000" y="1" op="=" />
-      <SplineElement x="1100" y="1" op="=" />
-      <SplineElement x="1150" y="2" op="=" />
-      <SplineElement x="1300" y="8" op="=" />
-      <SplineElement x="1400" y="12" op="=" />
-      <SplineElement x="1500" y="12" op="=" />
+      <SplineElement x="1150.263" y="1" op="=" />
+      <SplineElement x="1200" y="1.5" op="=" />
+      <SplineElement x="1250" y="3" op="=" />
+      <SplineElement x="1300" y="6" op="=" />
+      <SplineElement x="1400" y="10" op="=" />
+      <SplineElement x="1500" y="10" op="=" />
     </WearICERevsSpline>
     <WearICEPowerSpline numVertices="5">
       <SplineElement x="0.000000" y="1.000000" op="=" />
@@ -220,16 +221,16 @@
     <UpshiftTonePercentage9th value="95.9" />
   </GearBox>
   <FuelTank>
-    <FuelBsfcMax value="7.372E-05" />
-    <FuelBsfcMin value="4.282E-05" />
+    <FuelBsfcMax value="7.3116E-05" />
+    <FuelBsfcMin value="4.2439E-05" />
     <FuelLHV value="42500.000000" />
     <FuelOptimalRevs value="995" />
-    <FuelOptimalTorque value="511" />
+    <FuelOptimalTorque value="525" />
     <FuelRevsLinear value="0.0003" />
     <FuelTorqueLinear value="0.003" />
     <FuelCapacity value="110" />
-    <COMY value="0.145" />
-    <COMZ value="0.175" />
+    <COMY value="0.12" />
+    <COMZ value="0.18" />
     <SizeX value="0.7" />
     <SizeY value="0.3" />
     <SizeZ value="0.500000" />
@@ -242,7 +243,7 @@
     <FuelPowerScaleLean value="0.96" />
     <FuelPowerScaleStandard value="1.000000" />
     <FuelPowerScaleRich value="1.03" />
-    <FuelPowerScaleMax value="1.065" />
+    <FuelPowerScaleMax value="1.075" />
     <FuelRevsScaleLean value="1" />
     <FuelRevsScaleStandard value="1.000000" />
     <FuelRevsScaleRich value="1.000000" />
@@ -314,11 +315,11 @@
     </ATCStrengthPeakSlipFactorSplineWet>
   </BrakeECU>
   <Chassis>
-    <Mass value="739" />
+    <Mass value="736" />
     <MOIX value="850" />
     <MOIY value="2200" />
     <MOIZ value="150" />
-    <COMY value="0.025" />
+    <COMY value="0.02" />
     <COMZ value="0.14" />
     <InertiaScaleLowSpeedThreshold value="0" />
     <InertiaScaleMidSpeedThreshold value="33" />
@@ -506,9 +507,9 @@
       <LocalRestPositionX value="0.7825" />
       <LocalRestPositionY value="0" />
       <LocalRestPositionZ value="-1.7917" />
-      <LocalRenderPositionX value="0.76246" />
+      <LocalRenderPositionX value="0.788621" />
       <LocalRenderPositionY value="0" />
-      <LocalRenderPositionZ value="-1.82293" />
+      <LocalRenderPositionZ value="-1.82665" />
       <MinHeight value="-0.02" />
       <MaxHeight value="0.07" />
       <BumpStopHeight value="0.055" />
@@ -547,9 +548,9 @@
       <LocalRestPositionX value="0.823" />
       <LocalRestPositionY value="0" />
       <LocalRestPositionZ value="1.7925" />
-      <LocalRenderPositionX value="0.802276" />
+      <LocalRenderPositionX value="0.817859" />
       <LocalRenderPositionY value="0" />
-      <LocalRenderPositionZ value="1.81801" />
+      <LocalRenderPositionZ value="1.82559" />
       <MinHeight value="-0.015" />
       <MaxHeight value="0.045" />
       <BumpStopHeight value="0.035" />
@@ -633,12 +634,12 @@
     </ConvexHullData>
   </ConvexHull>
   <F1Aero>
-    <m_aero_cd_min value="0.95" />
-    <m_aero_cd_max value="0.93" />
-    <m_aero_front_cl_maxf_maxr value="1.82325" />
-    <m_aero_front_cl_maxf_minr value="1.76475" />
-    <m_aero_front_cl_minf_maxr value="1.70625007" />
-    <m_aero_front_cl_minf_minr value="1.72575" />
+    <m_aero_cd_min value="0.955500066" />
+    <m_aero_cd_max value="0.92635" />
+    <m_aero_front_cl_maxf_maxr value="1.8513" />
+    <m_aero_front_cl_maxf_minr value="1.79189992" />
+    <m_aero_front_cl_minf_maxr value="1.73250008" />
+    <m_aero_front_cl_minf_minr value="1.7523" />
     <m_aero_front_wing_loss value="0.5" />
     <m_aero_max_front_height value="-0.015" />
     <m_aero_min_front_height value="0.045" />
@@ -647,10 +648,10 @@
     <m_aeroSlipStreamAirDensityScaleLift value="0.87" />
     <m_aeroSlipStreamAirDensityScaleDrag value="0.85" />
     <m_aeroSlipStreamCarWidth value="1.5" />
-    <m_aero_rear_cl_maxf_maxr value="1.843" />
-    <m_aero_rear_cl_maxf_minr value="1.7848" />
-    <m_aero_rear_cl_minf_maxr value="1.7266" />
-    <m_aero_rear_cl_minf_minr value="1.746" />
+    <m_aero_rear_cl_maxf_maxr value="1.9095" />
+    <m_aero_rear_cl_maxf_minr value="1.8492" />
+    <m_aero_rear_cl_minf_maxr value="1.7889" />
+    <m_aero_rear_cl_minf_minr value="1.8089999" />
     <m_aero_rear_wing_loss value="0.000000" />
     <m_aero_wing_front_drag value="1.000000" />
     <m_aero_wing_front_force value="1.000000" />
@@ -926,7 +927,7 @@
   </F1Tuning>
   <F1Plank>
     <OffsetX value="0.000000" />
-    <OffsetY value="-0.226" />
+    <OffsetY value="-0.221" />
     <OffsetZ value="0.2" />
     <ExtentX value="0.050000" />
     <ExtentY value="0.025000" />
@@ -1129,7 +1130,7 @@
       <m_aero_cd_max value="0.92" op="*" />
       <m_aero_front_cl_maxf_maxr value="0.8" op="*" />
       <m_aero_front_cl_maxf_minr value="0.8" op="*" />
-      <m_aero_front_cl_minf_maxr value="0.8000001" op="*" />
+      <m_aero_front_cl_minf_maxr value="0.8" op="*" />
       <m_aero_front_cl_minf_minr value="0.8" op="*" />
       <m_aero_rear_cl_maxf_maxr value="0.8" op="*" />
       <m_aero_rear_cl_maxf_minr value="0.8" op="*" />
@@ -1271,29 +1272,29 @@
     <Engine>
       <RevsPowerSpline numVertices="18">
         <SplineElement x="0" y="0" op="+" />
-        <SplineElement x="0" y="949.2183" op="+" />
-        <SplineElement x="0" y="2403.479" op="+" />
-        <SplineElement x="0" y="4525.973" op="+" />
-        <SplineElement x="0" y="8109.609" op="+" />
-        <SplineElement x="0" y="13196.12" op="+" />
-        <SplineElement x="0" y="19988.55" op="+" />
-        <SplineElement x="0" y="28681.59" op="+" />
-        <SplineElement x="0" y="38411.5" op="+" />
-        <SplineElement x="0" y="47411.69" op="+" />
-        <SplineElement x="0" y="56761.16" op="+" />
-        <SplineElement x="0" y="62831.94" op="+" />
-        <SplineElement x="0" y="65275.56" op="+" />
-        <SplineElement x="0" y="67113" op="+" />
-        <SplineElement x="0" y="66876" op="+" />
-        <SplineElement x="0" y="61937.75" op="+" />
-        <SplineElement x="0" y="52223.81" op="+" />
-        <SplineElement x="0" y="41379.47" op="+" />
+        <SplineElement x="0" y="791.0142" op="+" />
+        <SplineElement x="0" y="2002.898" op="+" />
+        <SplineElement x="0" y="3771.645" op="+" />
+        <SplineElement x="0" y="6758.008" op="+" />
+        <SplineElement x="0" y="10996.77" op="+" />
+        <SplineElement x="0" y="16657.11" op="+" />
+        <SplineElement x="0" y="23901.3" op="+" />
+        <SplineElement x="0" y="32009.56" op="+" />
+        <SplineElement x="0" y="39509.72" op="+" />
+        <SplineElement x="0" y="47300.97" op="+" />
+        <SplineElement x="0" y="52360" op="+" />
+        <SplineElement x="0" y="54396.31" op="+" />
+        <SplineElement x="0" y="55927.5" op="+" />
+        <SplineElement x="0" y="55730" op="+" />
+        <SplineElement x="0" y="51614.75" op="+" />
+        <SplineElement x="0" y="43519.84" op="+" />
+        <SplineElement x="0" y="34482.88" op="+" />
       </RevsPowerSpline>
     </Engine>
     <FuelTank>
-      <FuelBsfcMax value="0.895" op="*" />
-      <FuelBsfcMin value="0.895" op="*" />
-      <FuelOptimalTorque value="63" op="+" />
+      <FuelBsfcMax value="0.925" op="*" />
+      <FuelBsfcMin value="0.925" op="*" />
+      <FuelOptimalTorque value="53" op="+" />
     </FuelTank>
   </Upgrade>
   <Upgrade name="radUpgradeFuelConsumption">
@@ -1314,24 +1315,24 @@
   </Upgrade>
   <Upgrade name="radUpgradeFrontDownforce">
     <F1Aero>
-      <m_aero_front_cl_maxf_maxr value="1.12" op="*" />
-      <m_aero_front_cl_maxf_minr value="1.12" op="*" />
-      <m_aero_front_cl_minf_maxr value="1.12" op="*" />
-      <m_aero_front_cl_minf_minr value="1.12" op="*" />
+      <m_aero_front_cl_maxf_maxr value="1.1" op="*" />
+      <m_aero_front_cl_maxf_minr value="1.1" op="*" />
+      <m_aero_front_cl_minf_maxr value="1.1" op="*" />
+      <m_aero_front_cl_minf_minr value="1.1" op="*" />
     </F1Aero>
   </Upgrade>
   <Upgrade name="radUpgradeRearDownforce">
     <F1Aero>
-      <m_aero_rear_cl_maxf_maxr value="1.14" op="*" />
-      <m_aero_rear_cl_maxf_minr value="1.14" op="*" />
-      <m_aero_rear_cl_minf_maxr value="1.14" op="*" />
-      <m_aero_rear_cl_minf_minr value="1.14" op="*" />
+      <m_aero_rear_cl_maxf_maxr value="1.12" op="*" />
+      <m_aero_rear_cl_maxf_minr value="1.12" op="*" />
+      <m_aero_rear_cl_minf_maxr value="1.12" op="*" />
+      <m_aero_rear_cl_minf_minr value="1.12" op="*" />
     </F1Aero>
   </Upgrade>
   <Upgrade name="radUpgradeDrag">
     <F1Aero>
-      <m_aero_cd_min value="0.89" op="*" />
-      <m_aero_cd_max value="0.89" op="*" />
+      <m_aero_cd_min value="0.92" op="*" />
+      <m_aero_cd_max value="0.92" op="*" />
     </F1Aero>
   </Upgrade>
   <Upgrade name="radUpgradeDRS">
@@ -1341,7 +1342,7 @@
   </Upgrade>
   <Upgrade name="radUpgradeWeightReduction">
     <Chassis>
-      <Mass value="24" op="-" />
+      <Mass value="18" op="-" />
     </Chassis>
   </Upgrade>
   <Upgrade name="radUpgradeWeightRedistribution">
