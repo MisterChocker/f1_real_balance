@@ -1,0 +1,1413 @@
+﻿<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<!--BXMLLittle-->
+<VTF>
+  <Engine>
+    <RevsPowerSpline numVertices="18">
+      <SplineElement x="0" y="0" op="=" />
+      <SplineElement x="69.9528" y="7910.146484375" op="=" />
+      <SplineElement x="121.655289" y="20028.978515625" op="=" />
+      <SplineElement x="176.0811" y="37716.44921875" op="=" />
+      <SplineElement x="247.059937" y="67580.078125" op="=" />
+      <SplineElement x="326.8007" y="109967.6640625" op="=" />
+      <SplineElement x="413.583679" y="166571.140625" op="=" />
+      <SplineElement x="515.631958" y="239013.109375" op="=" />
+      <SplineElement x="626.9321" y="320095.78125" op="=" />
+      <SplineElement x="759.612061" y="395097.15625" op="=" />
+      <SplineElement x="904.120667" y="473009.6875" op="=" />
+      <SplineElement x="995.594" y="523599.84375" op="=" />
+      <SplineElement x="1046.77869" y="543962.875" op="=" />
+      <SplineElement x="1099.97632" y="559275" op="=" />
+      <SplineElement x="1257.26538" y="557299.75" op="=" />
+      <SplineElement x="1309.14978" y="516147.8125" op="=" />
+      <SplineElement x="1384.49988" y="435198.375" op="=" />
+      <SplineElement x="1466.07654" y="344828.71875" op="=" />
+    </RevsPowerSpline>
+    <RevsTurboLagSpline numVertices="4">
+      <SplineElement x="0" y="1" op="=" />
+      <SplineElement x="400" y="1" op="=" />
+      <SplineElement x="800" y="0" op="=" />
+      <SplineElement x="2200.000000" y="0.000000" op="=" />
+    </RevsTurboLagSpline>
+    <Mass value="95.000000" />
+    <Inertia value="0.12" />
+    <RevsFrictionSpline numVertices="2">
+      <SplineElement x="0" y="0" op="=" />
+      <SplineElement x="1466.07654" y="1" op="=" />
+    </RevsFrictionSpline>
+    <RevsEngineBrakingSpline numVertices="2">
+      <SplineElement x="0" y="0" op="=" />
+      <SplineElement x="1466.07654" y="155" op="=" />
+    </RevsEngineBrakingSpline>
+    <MinIdleRateFactor value="0.98" />
+    <MaxLimiterRateFactor value="1.2" />
+    <IdleRotationRate value="450.294952" />
+    <LimiterRotationRate value="1413.71667" />
+    <EngineLayout value="RearInline" />
+    <TurboMode value="Full" />
+    <TempEfficiencySpline numVertices="4">
+      <SplineElement x="353.15" y="1" op="=" />
+      <SplineElement x="403.15" y="1" op="=" />
+      <SplineElement x="423.15" y="0.9" op="=" />
+      <SplineElement x="483.15" y="0.9" op="=" />
+    </TempEfficiencySpline>
+    <TempWearFactorSpline numVertices="5">
+      <SplineElement x="0" y="1" op="=" />
+      <SplineElement x="300" y="1" op="=" />
+      <SplineElement x="403.15" y="1" op="=" />
+      <SplineElement x="440" y="2.5" op="=" />
+      <SplineElement x="480" y="5" op="=" />
+    </TempWearFactorSpline>
+    <AntiStallSuccessSpline numVertices="5">
+      <SplineElement x="350" y="0.15" op="=" />
+      <SplineElement x="850" y="0.25" op="=" />
+      <SplineElement x="1040" y="0.54" op="=" />
+      <SplineElement x="1150" y="1" op="=" />
+      <SplineElement x="1500.000000" y="1" op="=" />
+    </AntiStallSuccessSpline>
+    <AntiStallRumbleSpline numVertices="6">
+      <SplineElement x="351.666656" y="0" op="=" />
+      <SplineElement x="1025" y="0" op="=" />
+      <SplineElement x="1075" y="0.2" op="=" />
+      <SplineElement x="1200" y="0.2" op="=" />
+      <SplineElement x="1250" y="0" op="=" />
+      <SplineElement x="1500" y="0" op="=" />
+    </AntiStallRumbleSpline>
+    <AntiStallRevsNeededToExit value="600" />
+    <AntiStallRevsLowEnoughToEnter value="320" />
+    <CoefHeatAbsorbed value="1" />
+    <SpecificHeatCapacity value="5000" />
+    <CoefHeatTransferConstant value="900" />
+    <CoefHeatTransferLinear value="9" />
+    <CoefHeatTransferQuadratic value="0.02" />
+    <RadiatorSurfaceArea value="10" />
+    <InitialTemperature value="363.15" />
+    <WearICERate value="0.032" />
+    <WearICERevsSpline numVertices="7">
+      <SplineElement x="1000" y="1" op="=" />
+      <SplineElement x="1150.263" y="1" op="=" />
+      <SplineElement x="1200" y="1.5" op="=" />
+      <SplineElement x="1250" y="3" op="=" />
+      <SplineElement x="1300" y="6" op="=" />
+      <SplineElement x="1400" y="10" op="=" />
+      <SplineElement x="1500" y="10" op="=" />
+    </WearICERevsSpline>
+    <WearICEPowerSpline numVertices="5">
+      <SplineElement x="0.000000" y="1.000000" op="=" />
+      <SplineElement x="0.5" y="1.000000" op="=" />
+      <SplineElement x="0.75" y="0.98" op="=" />
+      <SplineElement x="0.9" y="0.94" op="=" />
+      <SplineElement x="1.000000" y="0.900000" op="=" />
+    </WearICEPowerSpline>
+    <WearTCRate value="0.046" />
+    <WearTCPowerSpline numVertices="5">
+      <SplineElement x="0.000000" y="1.000000" op="=" />
+      <SplineElement x="0.5" y="1.000000" op="=" />
+      <SplineElement x="0.75" y="0.98" op="=" />
+      <SplineElement x="0.9" y="0.94" op="=" />
+      <SplineElement x="1.000000" y="0.900000" op="=" />
+    </WearTCPowerSpline>
+    <WearMGUHRate value="0.024" />
+    <WearMGUHTempSpline numVertices="5">
+      <SplineElement x="300" y="1" op="=" />
+      <SplineElement x="360" y="1" op="=" />
+      <SplineElement x="375" y="1.3" op="=" />
+      <SplineElement x="400" y="2.6" op="=" />
+      <SplineElement x="450" y="6" op="=" />
+    </WearMGUHTempSpline>
+    <WearMGUHCoolingSpline numVertices="5">
+      <SplineElement x="0.000000" y="1.000000" op="=" />
+      <SplineElement x="0.5" y="1" op="=" />
+      <SplineElement x="0.75" y="0.9" op="=" />
+      <SplineElement x="0.9" y="0.7" op="=" />
+      <SplineElement x="1.000000" y="0.5" op="=" />
+    </WearMGUHCoolingSpline>
+    <WearCERate value="0.0005" />
+    <WearCEVibrationMinWaveLength value="0.005" />
+    <WearCEVibrationMinmagnitude value="0.005" />
+    <WearCEVibrationMinSpeed value="15" />
+    <WearCEVibrationMaxSpeed value="75" />
+    <WearCEDVibrationRate value="0.9" />
+    <WearCEPenaltySpline numVertices="5">
+      <SplineElement x="0.000000" y="1.000000" op="=" />
+      <SplineElement x="0.5" y="1.000000" op="=" />
+      <SplineElement x="0.75" y="1.25" op="=" />
+      <SplineElement x="0.9" y="2" op="=" />
+      <SplineElement x="1.000000" y="3" op="=" />
+    </WearCEPenaltySpline>
+    <KERSPower value="60000" />
+    <KERSCapacity value="400000.000000" />
+    <IdleFluctuationAmplitude value="2" />
+    <IdleFluctuationFrequency value="10" />
+    <RedLineThrottleCutTime value="0.016" />
+  </Engine>
+  <GearBox>
+    <FinalDriveRatio value="5.05" />
+    <GearRatioReverse value="-6.400000" />
+    <GearRatio1st value="3" />
+    <GearRatio2nd value="2.4" />
+    <GearRatio3rd value="1.97" />
+    <GearRatio4th value="1.55" />
+    <GearRatio5th value="1.33" />
+    <GearRatio6th value="1.13" />
+    <GearRatio7th value="0.99" />
+    <GearRatio8th value="0.88" />
+    <GearRatio9th value="0" />
+    <GearDnSpeedMultiple2nd value="0.72" />
+    <GearDnSpeedMultiple3rd value="0.95" />
+    <GearDnSpeedMultiple4th value="0.97" />
+    <GearDnSpeedMultiple5th value="0.99" />
+    <GearDnSpeedMultiple6th value="1" />
+    <GearDnSpeedMultiple7th value="1.05" />
+    <GearDnSpeedMultiple8th value="1.1" />
+    <GearUpSpeedMultiple1st value="1.15" />
+    <GearUpSpeedMultiple2nd value="1.18" />
+    <GearUpSpeedMultiple3rd value="1.18" />
+    <GearUpSpeedMultiple4th value="1.18" />
+    <GearUpSpeedMultiple5th value="1.18" />
+    <GearUpSpeedMultiple6th value="1.18" />
+    <GearUpSpeedMultiple7th value="1.18" />
+    <GearUpSpeedMultiple8th value="1" />
+    <GearUpPeakMaxFraction value="1.000000" />
+    <MaxClutchTorque value="1.5" />
+    <AutoClutchGearDelay value="0.02" />
+    <VehicleStartClutchReleaseTime value="1.0" />
+    <ClutchGearTime value="0.02" />
+    <ClutchLiftRate value="40" />
+    <TimeOffThrottleGearUp value="0.055" />
+    <TimeOnThrottleGearDown value="0.02" />
+    <ClutchLowThrottleBitePoint value="0.300000" />
+    <ClutchHighThrottleBitePoint value="0.700000" />
+    <FullClutchPoint value="1.09" />
+    <NoClutchPoint value="1.1" />
+    <CoefFrictionLinear value="0.100000" />
+    <CoefFrictionQuadratic value="0.001000" />
+    <PeakSlipRatioForGearUp value="0.08" />
+    <PeakSlipRatioForGearDown value="0.1" />
+    <SecondToFirstSpeedMultiple value="0.65" />
+    <GenericDownshiftMultiple value="0.82" />
+    <SpeedForReverseToFirstTransition value="1.000000" />
+    <DamageRateMidShift value="0.0009" />
+    <WearRate value="0.0" />
+    <OverrevvingDamageScale value="0.05" />
+    <TimeVulnerableAfterGearChange value="0.2" />
+    <DamageIncrementToTriggerFault value="0.05" />
+    <JammedGearPermanentThreshold value="0.96" />
+    <JammedGearPermanentChance value="5E-05" />
+    <JammedGearTemporaryThreshold value="0.9" />
+    <JammedGearTemporaryChance value="0.00015" />
+    <JammedGearTemporaryTimeMin value="30" />
+    <JammedGearTemporaryTimeMax value="120" />
+    <MissingGearThreshold value="0.7" />
+    <MissingGearChance value="8E-05" />
+    <MissingGearDurationMin value="90" />
+    <MissingGearDurationMax value="180" />
+    <ShiftTimeFaultThreshold value="0.8" />
+    <ShiftTimeFaultChance value="0.0001" />
+    <ShiftTimeFaultScaleMin value="60" />
+    <ShiftTimeFaultScaleMax value="120" />
+    <ShiftTimeFaultDurationMin value="90" />
+    <ShiftTimeFaultDurationMax value="240" />
+    <ShiftTimeFaultDamageScale value="4" />
+    <MaxSpeedForReverse value="10" />
+    <AllowGearRatioTuning value="false" />
+    <UpshiftTonePercentage1st value="95.9" />
+    <UpshiftTonePercentage2nd value="95.9" />
+    <UpshiftTonePercentage3rd value="95.9" />
+    <UpshiftTonePercentage4th value="95.9" />
+    <UpshiftTonePercentage5th value="95.9" />
+    <UpshiftTonePercentage6th value="95.9" />
+    <UpshiftTonePercentage7th value="95.9" />
+    <UpshiftTonePercentage8th value="95.9" />
+    <UpshiftTonePercentage9th value="95.9" />
+  </GearBox>
+  <FuelTank>
+    <FuelBsfcMax value="7.3116E-05" />
+    <FuelBsfcMin value="4.2439E-05" />
+    <FuelLHV value="42500.000000" />
+    <FuelOptimalRevs value="995" />
+    <FuelOptimalTorque value="525" />
+    <FuelRevsLinear value="0.0003" />
+    <FuelTorqueLinear value="0.003" />
+    <FuelCapacity value="110" />
+    <COMY value="0.05" />
+    <COMZ value="0.155" />
+    <SizeX value="0.7" />
+    <SizeY value="0.3" />
+    <SizeZ value="0.500000" />
+  </FuelTank>
+  <FuelECU>
+    <FuelBurnScaleLean value="0.7" />
+    <FuelBurnScaleStandard value="1.000000" />
+    <FuelBurnScaleRich value="1.3" />
+    <FuelBurnScaleMax value="1.2" />
+    <FuelPowerScaleLean value="0.942" />
+    <FuelPowerScaleStandard value="0.900000" />
+    <FuelPowerScaleRich value="1.01" />
+    <FuelPowerScaleMax value="1.011" />
+    <FuelRevsScaleLean value="1" />
+    <FuelRevsScaleStandard value="1.000000" />
+    <FuelRevsScaleRich value="1.000000" />
+    <FuelRevsScaleMax value="1.000000" />
+    <TemperatureScaleLean value="1" />
+    <TemperatureScaleStandard value="1.000000" />
+    <TemperatureScaleRich value="1" />
+    <TemperatureScaleMax value="1" />
+  </FuelECU>
+  <BrakeECU>
+    <BrakeFront value="2400" />
+    <BrakeRear value="1800" />
+    <BrakeFrontBackwards value="2100" />
+    <BrakeRearBackwards value="2100" />
+    <BrakeFrontForwards value="2800" />
+    <BrakeRearForwards value="1400" />
+    <BrakePressure value="1" />
+    <BrakeATCStrength value="0" />
+    <BrakeABSStrength value="0" />
+    <ATCActivationRate value="1" />
+    <ATCDeActivationRate value="0.0075" />
+    <SpeedABSPeakSlipFactorSpline numVertices="4">
+      <SplineElement x="0.000000" y="3" op="=" />
+      <SplineElement x="20" y="3" op="=" />
+      <SplineElement x="35" y="0.9" op="=" />
+      <SplineElement x="100" y="0.82" op="=" />
+    </SpeedABSPeakSlipFactorSpline>
+    <SpeedABSPeakSlipFactorSplineWet numVertices="4">
+      <SplineElement x="0.000000" y="5" op="=" />
+      <SplineElement x="20" y="5" op="=" />
+      <SplineElement x="45" y="0.975" op="=" />
+      <SplineElement x="100" y="0.95" op="=" />
+    </SpeedABSPeakSlipFactorSplineWet>
+    <ABSActivationRate value="1" />
+    <ABSDeActivationRate value="0.018" />
+    <PunctureThrottleMax value="1.0" />
+    <BurstThrottleMax value="1.0" />
+    <SpeedATCPeakSlipFactorSpline numVertices="4">
+      <SplineElement x="0.0" y="2" op="=" />
+      <SplineElement x="20" y="2" op="=" />
+      <SplineElement x="40" y="1" op="=" />
+      <SplineElement x="100" y="0.7" op="=" />
+    </SpeedATCPeakSlipFactorSpline>
+    <SpeedATCPeakSlipFactorSplineWet numVertices="4">
+      <SplineElement x="0" y="1.8" op="=" />
+      <SplineElement x="15" y="1.8" op="=" />
+      <SplineElement x="35" y="0.9" op="=" />
+      <SplineElement x="100" y="0.62" op="=" />
+    </SpeedATCPeakSlipFactorSplineWet>
+    <ATCStrengthThrottleFactorSpline numVertices="3">
+      <SplineElement x="0.0" y="0.0" op="=" />
+      <SplineElement x="0.5" y="0.67" op="=" />
+      <SplineElement x="1.0" y="0.9" op="=" />
+    </ATCStrengthThrottleFactorSpline>
+    <ATCStrengthThrottleFactorSplineWet numVertices="3">
+      <SplineElement x="0.0" y="0.0" op="=" />
+      <SplineElement x="0.5" y="0.7" op="=" />
+      <SplineElement x="1.0" y="0.92" op="=" />
+    </ATCStrengthThrottleFactorSplineWet>
+    <ATCStrengthPeakSlipFactorSpline numVertices="3">
+      <SplineElement x="0" y="5" op="=" />
+      <SplineElement x="0.5" y="2" op="=" />
+      <SplineElement x="1" y="1" op="=" />
+    </ATCStrengthPeakSlipFactorSpline>
+    <ATCStrengthPeakSlipFactorSplineWet numVertices="3">
+      <SplineElement x="0" y="5" op="=" />
+      <SplineElement x="0.5" y="1.7" op="=" />
+      <SplineElement x="1" y="0.8" op="=" />
+    </ATCStrengthPeakSlipFactorSplineWet>
+  </BrakeECU>
+  <Chassis>
+    <Mass value="741" />
+    <MOIX value="850" />
+    <MOIY value="2200" />
+    <MOIZ value="150" />
+    <COMY value="0.015" />
+    <COMZ value="0.16" />
+    <InertiaScaleLowSpeedThreshold value="0" />
+    <InertiaScaleMidSpeedThreshold value="33" />
+    <InertiaScaleHighSpeedThreshold value="66" />
+    <InertiaScaleLowSpeedX value="1" />
+    <InertiaScaleLowSpeedY value="2" />
+    <InertiaScaleLowSpeedZ value="1" />
+    <InertiaScaleMidSpeedX value="1" />
+    <InertiaScaleMidSpeedY value="1" />
+    <InertiaScaleMidSpeedZ value="1" />
+    <InertiaScaleHighSpeedX value="1" />
+    <InertiaScaleHighSpeedY value="1" />
+    <InertiaScaleHighSpeedZ value="1" />
+    <FrontVisualHeightOffset value="0" />
+    <RearVisualHeightOffset value="0" />
+  </Chassis>
+  <Steering>
+    <MaxSteeringLock value="0.28" />
+    <VisualTurnRate value="1.000000" />
+    <MinSpeedForWobble value="5.000000" />
+    <MaxSpeedForWobble value="44.000000" />
+    <MinDamageForWobble value="0.500000" />
+    <MaxDamageForWobble value="1.000000" />
+    <DamageWobbleRateA value="8.000000" />
+    <DamageWobbleRateB value="5.300000" />
+    <DamageWobbleAngle value="0.052360" />
+  </Steering>
+  <CoreAero>
+    <SlipStreaming value="true" />
+    <SlipStreamWhileBraking value="true" />
+  </CoreAero>
+  <Differential>
+    <DriveType value="RWD" />
+    <RearPowerProportion value="100" />
+    <DiffRearNoEffect value="0.000000" />
+    <DiffRearFullEffect value="5" />
+    <DiffRearTorque value="75" />
+    <DiffCentreNoEffect value="0.000000" />
+    <DiffCentreFullEffect value="0" />
+    <DiffCentreTorque value="0" />
+    <DiffFrontNoEffect value="0.000000" />
+    <DiffFrontFullEffect value="0" />
+    <DiffFrontTorque value="0" />
+    <DiffPowerOffMultiple value="0.1" />
+  </Differential>
+  <SuspensionSystem numBrakeTypes="2" numTyreTypes="2" numSuspensionTypes="2">
+    <Brake name="Rear">
+      <HandbrakeSupport value="true" />
+      <HandbrakeBrakeMultiple value="1.000000" />
+      <HandbrakeGripMultiple value="1.000000" />
+      <TempEfficiencySpline numVertices="5">
+        <SplineElement x="280" y="0.8" op="=" />
+        <SplineElement x="400" y="0.99" op="=" />
+        <SplineElement x="750" y="1" op="=" />
+        <SplineElement x="1150" y="0.95" op="=" />
+        <SplineElement x="1400" y="0.8" op="=" />
+      </TempEfficiencySpline>
+      <SpecificHeatCapacity value="150" />
+      <CoefHeatTransferConstant value="10" />
+      <CoefHeatTransferLinear value="2" />
+      <CoefHeatTransferQuadratic value="0.001" />
+      <MinDamageBrakeLoss value="0" />
+      <MaxBrakeLossPercent value="0" />
+      <DamageAccretionRate value="0" />
+    </Brake>
+    <Brake name="Front">
+      <HandbrakeSupport value="true" />
+      <HandbrakeBrakeMultiple value="1.000000" />
+      <HandbrakeGripMultiple value="1.000000" />
+      <TempEfficiencySpline numVertices="5">
+        <SplineElement x="280" y="0.8" op="=" />
+        <SplineElement x="400" y="0.99" op="=" />
+        <SplineElement x="850" y="1" op="=" />
+        <SplineElement x="1150" y="0.96" op="=" />
+        <SplineElement x="1400" y="0.8" op="=" />
+      </TempEfficiencySpline>
+      <SpecificHeatCapacity value="150" />
+      <CoefHeatTransferConstant value="10" />
+      <CoefHeatTransferLinear value="2.2" />
+      <CoefHeatTransferQuadratic value="0.0035" />
+      <MinDamageBrakeLoss value="0" />
+      <MaxBrakeLossPercent value="0" />
+      <DamageAccretionRate value="0" />
+    </Brake>
+    <Tyre name="Rear">
+      <Mass value="30" />
+      <Inertia value="1" />
+      <TyreWidth value="0.405" />
+      <TyreRadius value="0.335" />
+      <AlloyRadius value="0.165" />
+      <PatchShape value="0.000000" />
+      <MinGripMultiplier value="0.55" />
+      <MaxGripMultiplier value="1.000000" />
+      <GripMultiplier value="1.000000" />
+      <SlipAngleScale value="1.000000" />
+      <SlipRatioScale value="1.000000" />
+      <CoefRollingResistance value="0" />
+      <SpringConstant value="450000" />
+      <DampingConstant value="500" />
+      <DampingConstantForAI value="2000" />
+      <MaxCompression value="0.025" />
+      <PunctureWearMin value="0.750000" />
+      <PunctureWearMax value="1.0" />
+      <PunctureSpringConstantMultiplier value="0.400000" />
+      <PunctureSpringDampingMultiplier value="0.500000" />
+      <PunctureRadiusMultiplier value="0.800000" />
+      <PunctureGripMultiplier value="0.700000" />
+      <PunctureResistanceMultiplier value="100.0" />
+      <BlowoutMinTime value="0.500000" />
+      <BlowoutMaxTime value="10.000000" />
+      <BurstGripMultiplier value="1" />
+      <DebrisPunctureMinSpeed value="14.0" />
+      <DebrisPunctureMaxSpeed value="77.0" />
+      <DebrisPunctureProbabilityAtMinSpeed value="0.02" />
+      <DebrisPunctureProbabilityAtMaxSpeed value="0.2" />
+      <DebrisPunctureInvulnerabilityPeriod value="1.0" />
+      <SlipAngleLimitDegrees value="15" />
+      <SlipRatioLimitDegrees value="15" />
+      <UpgradeWearFactor value="1.0" />
+      <UpgradeWearFactorAdjustment value="1.0" />
+      <CollisionSpeedTyreDamageRateSpline numVertices="3">
+        <SplineElement x="0" y="0" op="=" />
+        <SplineElement x="20.0" y="0.0" op="=" />
+        <SplineElement x="30.0" y="1.0" op="=" />
+      </CollisionSpeedTyreDamageRateSpline>
+      <PunctureSpeedTyreDamageRateSpline numVertices="3">
+        <SplineElement x="0" y="0" op="=" />
+        <SplineElement x="20.0" y="0.0" op="=" />
+        <SplineElement x="30.0" y="0.04" op="=" />
+      </PunctureSpeedTyreDamageRateSpline>
+    </Tyre>
+    <Tyre name="Front">
+      <Mass value="29" />
+      <Inertia value="1" />
+      <TyreWidth value="0.305" />
+      <TyreRadius value="0.33" />
+      <AlloyRadius value="0.165" />
+      <PatchShape value="0.000000" />
+      <MinGripMultiplier value="0.55" />
+      <MaxGripMultiplier value="1.000000" />
+      <GripMultiplier value="1.000000" />
+      <SlipAngleScale value="1.000000" />
+      <SlipRatioScale value="1.000000" />
+      <CoefRollingResistance value="0" />
+      <SpringConstant value="400000" />
+      <DampingConstant value="400" />
+      <DampingConstantForAI value="2000" />
+      <MaxCompression value="0.025" />
+      <PunctureWearMin value="0.750000" />
+      <PunctureWearMax value="1.0" />
+      <PunctureSpringConstantMultiplier value="0.400000" />
+      <PunctureSpringDampingMultiplier value="0.500000" />
+      <PunctureRadiusMultiplier value="0.800000" />
+      <PunctureGripMultiplier value="0.700000" />
+      <PunctureResistanceMultiplier value="100.0" />
+      <BlowoutMinTime value="0.500000" />
+      <BlowoutMaxTime value="10.000000" />
+      <BurstGripMultiplier value="1" />
+      <DebrisPunctureMinSpeed value="14.0" />
+      <DebrisPunctureMaxSpeed value="77.0" />
+      <DebrisPunctureProbabilityAtMinSpeed value="0.02" />
+      <DebrisPunctureProbabilityAtMaxSpeed value="0.2" />
+      <DebrisPunctureInvulnerabilityPeriod value="1.0" />
+      <SlipAngleLimitDegrees value="15" />
+      <SlipRatioLimitDegrees value="15" />
+      <UpgradeWearFactor value="1.0" />
+      <UpgradeWearFactorAdjustment value="1.0" />
+      <CollisionSpeedTyreDamageRateSpline numVertices="3">
+        <SplineElement x="0" y="0" op="=" />
+        <SplineElement x="20.0" y="0.0" op="=" />
+        <SplineElement x="30.0" y="1.0" op="=" />
+      </CollisionSpeedTyreDamageRateSpline>
+      <PunctureSpeedTyreDamageRateSpline numVertices="3">
+        <SplineElement x="0" y="0" op="=" />
+        <SplineElement x="20.0" y="0.00" op="=" />
+        <SplineElement x="30.0" y="0.08" op="=" />
+      </PunctureSpeedTyreDamageRateSpline>
+    </Tyre>
+    <Suspension name="Rear">
+      <TyreType value="Rear" />
+      <BrakeType value="Rear" />
+      <Camber value="-0.022360" />
+      <Castor value="0.000000" />
+      <Toe value="-0.00175" />
+      <LocalRestPositionX value="0.7825" />
+      <LocalRestPositionY value="0" />
+      <LocalRestPositionZ value="-1.7917" />
+      <LocalRenderPositionX value="0.780214" />
+      <LocalRenderPositionY value="0" />
+      <LocalRenderPositionZ value="-1.82526" />
+      <MinHeight value="-0.02" />
+      <MaxHeight value="0.07" />
+      <BumpStopHeight value="0.055" />
+      <BumpStopSpringConst value="12000" />
+      <BumpStopRisingSpring value="46000000" />
+      <BumpStopDamping value="990" />
+      <BumpStopRisingDamping value="900000" />
+      <RideHeightOffset value="0" />
+      <RideHeightRenderOffset value="0" />
+      <ZeroForceHeight value="-0.083074" />
+      <WheelLinearFactor value="0.300000" />
+      <WheelQuadraticFactor value="0.000000" />
+      <WheelCamberFactor value="0.100000" />
+      <WheelLinearFactorNeg value="0" />
+      <WheelQuadraticFactorNeg value="0.000000" />
+      <WheelCamberFactorNeg value="0.000000" />
+      <WheelVisualCamber value="0.000000" />
+      <WheelVisualToe value="0.000000" />
+      <RollCentre value="0" />
+      <SpringConstant value="200000" />
+      <ThirdSpringConstant value="100000" />
+      <ThirdSpringDamping value="2500" />
+      <SlowBumpDamping value="4500" />
+      <FastBumpDamping value="2500" />
+      <FastReboundDamping value="3000" />
+      <SlowReboundDamping value="5000" />
+      <DampingZoneDivision value="0.07" />
+      <AntiRollConstant value="40000" />
+    </Suspension>
+    <Suspension name="Front">
+      <TyreType value="Front" />
+      <BrakeType value="Front" />
+      <Camber value="-0.052360" />
+      <Castor value="-0.20944" />
+      <Toe value="0.00175" />
+      <LocalRestPositionX value="0.823" />
+      <LocalRestPositionY value="0" />
+      <LocalRestPositionZ value="1.7925" />
+      <LocalRenderPositionX value="0.81718" />
+      <LocalRenderPositionY value="0" />
+      <LocalRenderPositionZ value="1.82164" />
+      <MinHeight value="-0.015" />
+      <MaxHeight value="0.045" />
+      <BumpStopHeight value="0.035" />
+      <BumpStopSpringConst value="15000" />
+      <BumpStopRisingSpring value="50000000" />
+      <BumpStopDamping value="1100" />
+      <BumpStopRisingDamping value="1100000" />
+      <RideHeightOffset value="0" />
+      <RideHeightRenderOffset value="0" />
+      <ZeroForceHeight value="-0.080825" />
+      <WheelLinearFactor value="0.300000" />
+      <WheelQuadraticFactor value="0.000000" />
+      <WheelCamberFactor value="0.100000" />
+      <WheelLinearFactorNeg value="0.000000" />
+      <WheelQuadraticFactorNeg value="0.000000" />
+      <WheelCamberFactorNeg value="0.000000" />
+      <WheelVisualCamber value="0.000000" />
+      <WheelVisualToe value="0.000000" />
+      <RollCentre value="0" />
+      <SpringConstant value="300000" />
+      <ThirdSpringConstant value="250000" />
+      <ThirdSpringDamping value="2080" />
+      <SlowBumpDamping value="5000" />
+      <FastBumpDamping value="3000" />
+      <FastReboundDamping value="5000" />
+      <SlowReboundDamping value="7000" />
+      <DampingZoneDivision value="0.07" />
+      <AntiRollConstant value="110000" />
+    </Suspension>
+  </SuspensionSystem>
+  <WheelProxies>
+    <CreateProxies value="true" />
+    <ExtraWidthFront value="0.05" />
+    <ExtraWidthRear value="0.03" />
+  </WheelProxies>
+  <ConvexHull>
+    <OffsetX value="0" />
+    <OffsetY value="-0.3" />
+    <OffsetZ value="0" />
+    <BoxifyFrontWing value="false" />
+    <BoxifyRearWing value="false" />
+    <ConvexHullData numVertices="16" name="Chassis">
+      <HullVertex x="0.06951" y="0.2188" z="2.8989" />
+      <HullVertex x="-0.06951" y="0.2188" z="2.8989" />
+      <HullVertex x="0.06951" y="0.1588" z="2.8989" />
+      <HullVertex x="-0.06951" y="0.1588" z="2.8989" />
+      <HullVertex x="0.8021" y="0.08" z="0.6148" />
+      <HullVertex x="-0.8021" y="0.08" z="0.6148" />
+      <HullVertex x="0.8106" y="0.6264" z="0.5727" />
+      <HullVertex x="-0.8106" y="0.6264" z="0.5727" />
+      <HullVertex x="0" y="1.1553756" z="-0.06549841" />
+      <HullVertex x="0" y="1.0540874" z="-1.09388781" />
+      <HullVertex x="0.8088" y="0.08" z="-1.4219" />
+      <HullVertex x="-0.8088" y="0.08" z="-1.4219" />
+      <HullVertex x="0.0693" y="0.1588" z="-2.4334" />
+      <HullVertex x="-0.0693" y="0.1588" z="-2.4334" />
+      <HullVertex x="0.0693" y="0.4178" z="-2.4334" />
+      <HullVertex x="-0.0693" y="0.4178" z="-2.4334" />
+    </ConvexHullData>
+    <ConvexHullData numVertices="10" name="FrontWing">
+      <HullVertex x="1" y="0.09" z="2.8518" />
+      <HullVertex x="-1" y="0.09" z="2.8518" />
+      <HullVertex x="0.9763" y="0.2748" z="2.8518" />
+      <HullVertex x="-0.9763" y="0.2748" z="2.8518" />
+      <HullVertex x="0" y="0.2748" z="3.0477" />
+      <HullVertex x="0" y="0.09" z="3.0477" />
+      <HullVertex x="0.9763" y="0.2748" z="2.3072" />
+      <HullVertex x="-0.9763" y="0.2748" z="2.3072" />
+      <HullVertex x="1" y="0.09" z="2.3072" />
+      <HullVertex x="-0.9763" y="0.09" z="2.3072" />
+    </ConvexHullData>
+    <ConvexHullData numVertices="8" name="RearWing">
+      <HullVertex x="0.5178" y="0.9776" z="-2.4637" />
+      <HullVertex x="-0.5178" y="0.9776" z="-2.4637" />
+      <HullVertex x="0.5178" y="0.3503" z="-2.2345" />
+      <HullVertex x="-0.5178" y="0.3503" z="-2.2345" />
+      <HullVertex x="0.5178" y="0.9776" z="-2.0266" />
+      <HullVertex x="-0.5178" y="0.9776" z="-2.0266" />
+      <HullVertex x="0.5178" y="0.3503" z="-1.8442" />
+      <HullVertex x="-0.5178" y="0.3503" z="-1.8442" />
+    </ConvexHullData>
+  </ConvexHull>
+  <F1Aero>
+    <m_aero_cd_min value="0.9702" />
+    <m_aero_cd_max value="1.00395" />
+    <m_aero_front_cl_maxf_maxr value="1.7765" />
+    <m_aero_front_cl_maxf_minr value="1.7195" />
+    <m_aero_front_cl_minf_maxr value="1.6625" />
+    <m_aero_front_cl_minf_minr value="1.6815" />
+    <m_aero_front_wing_loss value="0.5" />
+    <m_aero_max_front_height value="-0.015" />
+    <m_aero_min_front_height value="0.045" />
+    <m_aero_max_rear_height value="-0.02" />
+    <m_aero_min_rear_height value="0.055" />
+    <m_aeroSlipStreamAirDensityScaleLift value="0.87" />
+    <m_aeroSlipStreamAirDensityScaleDrag value="0.85" />
+    <m_aeroSlipStreamCarWidth value="1.5" />
+    <m_aero_rear_cl_maxf_maxr value="1.85250008" />
+    <m_aero_rear_cl_maxf_minr value="1.794" />
+    <m_aero_rear_cl_minf_maxr value="1.7355" />
+    <m_aero_rear_cl_minf_minr value="1.755" />
+    <m_aero_rear_wing_loss value="0.000000" />
+    <m_aero_wing_front_drag value="1.000000" />
+    <m_aero_wing_front_force value="1.000000" />
+    <m_aero_wing_rear_drag value="0.88" />
+    <m_aero_wing_rear_force value="0.9" />
+    <FrontForceDirectionMultiplier numVertices="5">
+      <SplineElement x="0" y="1" op="=" />
+      <SplineElement x="0.052" y="1" op="=" />
+      <SplineElement x="0.15" y="0.98" op="=" />
+      <SplineElement x="0.35" y="0.9" op="=" />
+      <SplineElement x="3" y="0.9" op="=" />
+    </FrontForceDirectionMultiplier>
+    <RearForceDirectionMultiplier numVertices="5">
+      <SplineElement x="0" y="1" op="=" />
+      <SplineElement x="0.052" y="1" op="=" />
+      <SplineElement x="0.15" y="0.94" op="=" />
+      <SplineElement x="0.35" y="0.825" op="=" />
+      <SplineElement x="3" y="0.825" op="=" />
+    </RearForceDirectionMultiplier>
+    <ForceVelocityMultiplier numVertices="2">
+      <SplineElement x="0" y="0" op="=" />
+      <SplineElement x="120" y="0" op="=" />
+    </ForceVelocityMultiplier>
+    <FrontForceRideHeightMultiplier numVertices="8">
+      <SplineElement x="0" y="0.8" op="=" />
+      <SplineElement x="0.015625" y="0.8930818" op="=" />
+      <SplineElement x="0.03422619" y="0.9433962" op="=" />
+      <SplineElement x="0.05952381" y="0.9622642" op="=" />
+      <SplineElement x="0.09375" y="0.9685535" op="=" />
+      <SplineElement x="0.15" y="0.985" op="=" />
+      <SplineElement x="0.3" y="1" op="=" />
+      <SplineElement x="1" y="1" op="=" />
+    </FrontForceRideHeightMultiplier>
+    <RearForceRideHeightMultiplier numVertices="5">
+      <SplineElement x="0" y="0.76" op="=" />
+      <SplineElement x="0.05" y="0.86" op="=" />
+      <SplineElement x="0.15" y="0.94" op="=" />
+      <SplineElement x="0.3" y="0.96" op="=" />
+      <SplineElement x="1" y="1.1" op="=" />
+    </RearForceRideHeightMultiplier>
+    <DistanceDrivenCumulativeDRSFailureChance numVertices="2">
+      <SplineElement x="0" y="0.0" op="=" />
+      <SplineElement x="300000" y="0.1" op="=" />
+    </DistanceDrivenCumulativeDRSFailureChance>
+    <DRSRotationAngleRadians value="0.646" />
+    <DRSOpenCloseSpeed value="6.00" />
+    <DRSFailTimeMin value="300" />
+    <DRSFailTimeMax value="900" />
+    <CentreOfDragZOffset value="-0.3" />
+    <DragCoefficientSide value="1.5" />
+    <DragCoefficientTop value="2.00" />
+  </F1Aero>
+  <F1Assists>
+    <SteerOutRateVSSpeedSpline numVertices="8">
+      <SplineElement x="0.000000" y="1.0" op="=" />
+      <SplineElement x="15" y="1.0" op="=" />
+      <SplineElement x="30.000000" y="0.82" op="=" />
+      <SplineElement x="45" y="0.72" op="=" />
+      <SplineElement x="59.5" y="0.68" op="=" />
+      <SplineElement x="75" y="0.65" op="=" />
+      <SplineElement x="90" y="0.64" op="=" />
+      <SplineElement x="130" y="0.63" op="=" />
+    </SteerOutRateVSSpeedSpline>
+    <SteerLeftRateVSSlipAngleSpline numVertices="7">
+      <SplineElement x="-0.75" y="1" op="=" />
+      <SplineElement x="0" y="1" op="=" />
+      <SplineElement x="0.01" y="1" op="=" />
+      <SplineElement x="0.15" y="1.2" op="=" />
+      <SplineElement x="0.3" y="1.5" op="=" />
+      <SplineElement x="0.45" y="2.2" op="=" />
+      <SplineElement x="0.55" y="3" op="=" />
+    </SteerLeftRateVSSlipAngleSpline>
+    <SteerRightRateVSSlipAngleSpline numVertices="7">
+      <SplineElement x="-0.55" y="3" op="=" />
+      <SplineElement x="-0.45" y="2.2" op="=" />
+      <SplineElement x="-0.3" y="1.5" op="=" />
+      <SplineElement x="-0.15" y="1.2" op="=" />
+      <SplineElement x="-0.01" y="1" op="=" />
+      <SplineElement x="0.0" y="1" op="=" />
+      <SplineElement x="0.75" y="1" op="=" />
+    </SteerRightRateVSSlipAngleSpline>
+    <SteerInRateVSSpeedSpline numVertices="8">
+      <SplineElement x="0.000000" y="1.0" op="=" />
+      <SplineElement x="15" y="1.0" op="=" />
+      <SplineElement x="30" y="0.82" op="=" />
+      <SplineElement x="45" y="0.72" op="=" />
+      <SplineElement x="59.5" y="0.68" op="=" />
+      <SplineElement x="75" y="0.65" op="=" />
+      <SplineElement x="90.43041" y="0.64" op="=" />
+      <SplineElement x="130" y="0.63" op="=" />
+    </SteerInRateVSSpeedSpline>
+    <LockProportionVSSpeedSpline numVertices="13">
+      <SplineElement x="0.000000" y="1" op="=" />
+      <SplineElement x="13.5" y="1" op="=" />
+      <SplineElement x="21.5" y="0.69" op="=" />
+      <SplineElement x="29" y="0.505" op="=" />
+      <SplineElement x="37" y="0.39" op="=" />
+      <SplineElement x="44.5" y="0.306" op="=" />
+      <SplineElement x="52.500000" y="0.25" op="=" />
+      <SplineElement x="60.000000" y="0.213" op="=" />
+      <SplineElement x="67.500000" y="0.184" op="=" />
+      <SplineElement x="75.0298538" y="0.17" op="=" />
+      <SplineElement x="82.500000" y="0.16" op="=" />
+      <SplineElement x="90.000000" y="0.15" op="=" />
+      <SplineElement x="130" y="0.15" op="=" />
+    </LockProportionVSSpeedSpline>
+    <LockProportionVSFrontPeakSlipAngleProportionSpline numVertices="6">
+      <SplineElement x="0.00" y="0.5" op="=" />
+      <SplineElement x="1" y="0.5" op="=" />
+      <SplineElement x="1.5" y="0.48" op="=" />
+      <SplineElement x="4" y="0.27" op="=" />
+      <SplineElement x="4.5" y="0.25" op="=" />
+      <SplineElement x="5" y="0.25" op="=" />
+    </LockProportionVSFrontPeakSlipAngleProportionSpline>
+    <ReducedLockGivenBackVSRearSlipAngleSpline numVertices="6">
+      <SplineElement x="0" y="0" op="=" />
+      <SplineElement x="0.02" y="0" op="=" />
+      <SplineElement x="0.2" y="0.26" op="=" />
+      <SplineElement x="0.3" y="0.57" op="=" />
+      <SplineElement x="0.39" y="1.000" op="=" />
+      <SplineElement x="1" y="1.000" op="=" />
+    </ReducedLockGivenBackVSRearSlipAngleSpline>
+    <ThrottleVSRearPeakSlipRatioProportionSpline numVertices="4">
+      <SplineElement x="0.0" y="1.0" op="=" />
+      <SplineElement x="0.9" y="1" op="=" />
+      <SplineElement x="1.6" y="0.9" op="=" />
+      <SplineElement x="4" y="0.9" op="=" />
+    </ThrottleVSRearPeakSlipRatioProportionSpline>
+    <ThrottleVSRearPeakSlipAngleProportionSpline numVertices="3">
+      <SplineElement x="0.0" y="1.0" op="=" />
+      <SplineElement x="0.95" y="1" op="=" />
+      <SplineElement x="3" y="1" op="=" />
+    </ThrottleVSRearPeakSlipAngleProportionSpline>
+    <BrakeVSRearPeakSlipRatioProportionSpline numVertices="6">
+      <SplineElement x="0.0" y="1.0" op="=" />
+      <SplineElement x="0.5" y="1.0" op="=" />
+      <SplineElement x="0.92" y="1" op="=" />
+      <SplineElement x="1.55" y="0.9" op="=" />
+      <SplineElement x="2.3" y="0.88" op="=" />
+      <SplineElement x="2.5" y="0.88" op="=" />
+    </BrakeVSRearPeakSlipRatioProportionSpline>
+    <ThrottleVSRearPeakSlipRatioProportionWetSpline numVertices="4">
+      <SplineElement x="0.0" y="1.0" op="=" />
+      <SplineElement x="0.75" y="1" op="=" />
+      <SplineElement x="2.2" y="0.86" op="=" />
+      <SplineElement x="4" y="0.86" op="=" />
+    </ThrottleVSRearPeakSlipRatioProportionWetSpline>
+    <ThrottleVSRearPeakSlipAngleProportionWetSpline numVertices="3">
+      <SplineElement x="0.0" y="1.0" op="=" />
+      <SplineElement x="0.95" y="1" op="=" />
+      <SplineElement x="3" y="1" op="=" />
+    </ThrottleVSRearPeakSlipAngleProportionWetSpline>
+    <BrakeVSRearPeakSlipRatioProportionWetSpline numVertices="6">
+      <SplineElement x="0.0" y="1.0" op="=" />
+      <SplineElement x="0.5" y="1.0" op="=" />
+      <SplineElement x="0.85" y="1" op="=" />
+      <SplineElement x="1.55" y="0.88" op="=" />
+      <SplineElement x="2.3" y="0.83" op="=" />
+      <SplineElement x="2.5" y="0.83" op="=" />
+    </BrakeVSRearPeakSlipRatioProportionWetSpline>
+    <MinimumSteeringLock value="0.025" />
+    <SteerDeadzone value="0.08" />
+    <SteerOutMultiple value="3.3" />
+    <SteerInMultiple value="13" />
+    <LockReductionWeightSpeedVSSlip value="0.82" />
+    <LockExtensionReductionRate value="0.625" />
+    <LinearVSNonLinearSteeringWeightMin value="0.54" />
+    <LinearVSNonLinearSteeringWeightMax value="0.54" />
+    <SpeedForSteeringWeightMin value="0.000000" />
+    <SpeedForSteeringWeightMax value="98.348801" />
+    <ExponentForNonLinearSteering value="3.2" />
+    <MultipleToReachNeededEngineTorque value="0.03" />
+    <WheelInertia value="0.009" />
+    <WheelSteeringDeadzoneIncrement value="0.01" />
+    <WheelSteeringSaturationMin value="1.0" />
+    <WheelSteeringSaturationMax value="3.0" />
+    <WheelThrottleSaturationMin value="1.0" />
+    <WheelThrottleSaturationMax value="3.0" />
+    <WheelBrakeSaturationMin value="1.0" />
+    <WheelBrakeSaturationMax value="3.0" />
+    <WheelThrottleDeadzoneMax value="0.05" />
+    <WheelBrakeDeadzoneMax value="0.05" />
+  </F1Assists>
+  <F1Tuning>
+    <ChassisCOMZMin value="0.16" />
+    <ChassisCOMZMax value="0.16" />
+    <DifferentialRearTorqueMin value="50" />
+    <DifferentialRearTorqueMax value="100.000000" />
+    <DifferentialOffPowerMultipleMin value="0.000000" />
+    <DifferentialOffPowerMultipleMax value="0.2" />
+    <FrontSuspensionCamberMin value="-0.061090" />
+    <FrontSuspensionCamberMax value="-0.043630" />
+    <RearSuspensionCamberMin value="-0.03109" />
+    <RearSuspensionCamberMax value="-0.01363" />
+    <FrontSuspensionToeMin value="0.001" />
+    <FrontSuspensionToeMax value="0.0025" />
+    <RearSuspensionToeMin value="-0.002" />
+    <RearSuspensionToeMax value="-0.0015" />
+    <FrontSuspensionHeightMin value="-0.015" />
+    <FrontSuspensionHeightMax value="0.015" />
+    <RearSuspensionHeightMin value="-0.02" />
+    <RearSuspensionHeightMax value="0.02" />
+    <FrontSuspensionSpringConstantMin value="200000" />
+    <FrontSuspensionSpringConstantMax value="400000" />
+    <RearSuspensionSpringConstantMin value="100000" />
+    <RearSuspensionSpringConstantMax value="300000" />
+    <FrontSuspensionAntiRollBarMin value="60000" />
+    <FrontSuspensionAntiRollBarMax value="160000" />
+    <RearSuspensionAntiRollBarMin value="10000" />
+    <RearSuspensionAntiRollBarMax value="70000" />
+    <BrakePressureMin value="0.8" />
+    <BrakePressureMax value="1.2" />
+    <FrontTyrePressureConfig value="23" />
+    <FrontTyrePressureMin value="21" />
+    <FrontTyrePressureMax value="25" />
+    <RearTyrePressureConfig value="21.5" />
+    <RearTyrePressureMin value="19.5" />
+    <RearTyrePressureMax value="23.5" />
+    <FrontTyreSpringConstantCoefficientAtMinPressure value="0.937500" />
+    <FrontTyreSpringConstantCoefficientAtMaxPressure value="1.062500" />
+    <RearTyreSpringConstantCoefficientAtMinPressure value="0.945000" />
+    <RearTyreSpringConstantCoefficientAtMaxPressure value="1.056000" />
+    <FrontSpringDampingCoefficientAtMinPressure value="0.940000" />
+    <FrontSpringDampingCoefficientAtMaxPressure value="1.060000" />
+    <RearSpringDampingCoefficientAtMinPressure value="0.950000" />
+    <RearSpringDampingCoefficientAtMaxPressure value="1.050000" />
+    <AeroCoeffDragPercentageChange value="8.0" />
+    <AeroCoeffLiftPercentageChange value="5.5" />
+    <AeroCoeffDragMinLowerBound value="0.82" />
+    <AeroCoeffDragMinUpperBound value="1.179989" />
+    <AeroCoeffDragMaxLowerBound value="0.8" />
+    <AeroCoeffDragMaxUpperBound value="1.2" />
+    <AeroFrontCoeffLiftMaxFrontMaxRearLowerBound value="0.9199916" />
+    <AeroFrontCoeffLiftMaxFrontMaxRearUpperBound value="1.08" />
+    <AeroFrontCoeffLiftMaxFrontMinRearLowerBound value="0.92" />
+    <AeroFrontCoeffLiftMaxFrontMinRearUpperBound value="1.08" />
+    <AeroFrontCoeffLiftMinFrontMaxRearLowerBound value="0.92" />
+    <AeroFrontCoeffLiftMinFrontMaxRearUpperBound value="1.08" />
+    <AeroFrontCoeffLiftMinFrontMinRearLowerBound value="0.92" />
+    <AeroFrontCoeffLiftMinFrontMinRearUpperBound value="1.079957" />
+    <AeroRearCoeffLiftMaxFrontMaxRearLowerBound value="0.92" />
+    <AeroRearCoeffLiftMaxFrontMaxRearUpperBound value="1.08" />
+    <AeroRearCoeffLiftMaxFrontMinRearLowerBound value="0.92" />
+    <AeroRearCoeffLiftMaxFrontMinRearUpperBound value="1.08" />
+    <AeroRearCoeffLiftMinFrontMaxRearLowerBound value="0.92" />
+    <AeroRearCoeffLiftMinFrontMaxRearUpperBound value="1.08" />
+    <AeroRearCoeffLiftMinFrontMinRearLowerBound value="0.92" />
+    <AeroRearCoeffLiftMinFrontMinRearUpperBound value="1.08" />
+    <GearBoxFinalDriveRatioLowerBound value="5.04" />
+    <GearBoxFinalDriveRatioUpperBound value="5.04" />
+    <GearBoxRatioReverseLowerBound value="-6.4" />
+    <GearBoxRatioReverseUpperBound value="-6.4" />
+    <GearBoxRatioNeutralLowerBound value="0" />
+    <GearBoxRatioNeutralUpperBound value="0" />
+    <GearBoxRatio1stLowerBound value="3" />
+    <GearBoxRatio1stUpperBound value="3" />
+    <GearBoxRatio2ndLowerBound value="1.97" />
+    <GearBoxRatio2ndUpperBound value="1.97" />
+    <GearBoxRatio3rdLowerBound value="1.57" />
+    <GearBoxRatio3rdUpperBound value="1.57" />
+    <GearBoxRatio4thLowerBound value="1.345" />
+    <GearBoxRatio4thUpperBound value="1.345" />
+    <GearBoxRatio5thLowerBound value="1.205" />
+    <GearBoxRatio5thUpperBound value="1.205" />
+    <GearBoxRatio6thLowerBound value="1.085" />
+    <GearBoxRatio6thUpperBound value="1.085" />
+    <GearBoxRatio7thLowerBound value="0.995" />
+    <GearBoxRatio7thUpperBound value="0.995" />
+    <GearBoxRatio8thLowerBound value="0.88" />
+    <GearBoxRatio8thUpperBound value="0.88" />
+    <GearBoxRatio9thLowerBound value="0" />
+    <GearBoxRatio9thUpperBound value="0" />
+  </F1Tuning>
+  <F1Plank>
+    <OffsetX value="0.000000" />
+    <OffsetY value="-0.237" />
+    <OffsetZ value="0.2" />
+    <ExtentX value="0.050000" />
+    <ExtentY value="0.025000" />
+    <ExtentZ value="1.350000" />
+  </F1Plank>
+  <F1SuspensionDamage>
+    <SpeedThreshold value="7" />
+    <FrontDamageScale value="0.001" />
+    <RearDamageScale value="0.0001" />
+    <WheelDetachScale value="1.000000" />
+    <PartsDetachScale value="1.0" />
+  </F1SuspensionDamage>
+  <F1WingDamage>
+    <SpeedThreshold value="3" />
+    <DamageScale value="0.0001" />
+    <ChassisDamageMultiple value="0.8" />
+    <SideDetachScale value="0.5" />
+    <FullDetachScale value="0.99" />
+    <frontwing_01_sizeX value="0.16" />
+    <frontwing_01_sizeY value="0.16" />
+    <frontwing_01_sizeZ value="0.22" />
+    <frontwing_02_sizeX value="0.12" />
+    <frontwing_02_sizeY value="0.16" />
+    <frontwing_02_sizeZ value="0.52" />
+    <frontflap_sizeX value="0.2" />
+    <frontflap_sizeY value="0.18" />
+    <frontflap_sizeZ value="0.8" />
+    <frontflap_angle value="0.785" />
+  </F1WingDamage>
+  <DebugSystem>
+    <RenderCOM value="false" />
+    <RenderCollShape value="false" />
+    <RenderGrip value="false" />
+    <RenderSuspension value="false" />
+    <RenderSlipAngleGraphs value="false" />
+    <RenderDriftAssist value="false" />
+    <RenderCamber value="false" />
+    <RenderG value="false" />
+    <RenderSurfaceTypes value="false" />
+    <RenderCompound value="false" />
+    <RenderGearRatios value="false" />
+    <EnableFastLoad value="true" />
+    <RaiseCar value="false" />
+    <OverrideTyresFront value="false" />
+    <OverrideTyresRear value="false" />
+    <DefaultTelemetryPreset value="false" />
+    <DefaultConsoleStartupScript value="false" />
+  </DebugSystem>
+  <Turbo>
+    <ZeroBarRate value="500" />
+    <MaxBoostRate value="700" />
+    <MaxBoost value="3" />
+    <RelativeSize value="0.1" />
+    <Acceleration value="500" />
+    <Deceleration value="50" />
+    <BoostEfficiencySpline numVertices="2">
+      <SplineElement x="0" y="1" op="=" />
+      <SplineElement x="3.0" y="1" op="=" />
+    </BoostEfficiencySpline>
+  </Turbo>
+  <EnergyRecoverySystem numCommonTypes="1" numModeTypes="6">
+    <Common>
+      <MaxDeployPower value="120000" />
+      <HarvestLimitMGUK value="2000000" />
+      <DeployLimitMGUK value="4.0e6" />
+      <EnergyStoreCapacity value="4.0e6" />
+      <EnergyHarvestEfficencyMGUH value="0.6" />
+      <EnergyHarvestEfficencyMGUK value="0.3" />
+      <SpeedDeploySpline numVertices="12">
+        <SplineElement x="0" y="0" op="=" />
+        <SplineElement x="15.5" y="0" op="=" />
+        <SplineElement x="17.5" y="0.03" op="=" />
+        <SplineElement x="20" y="0.095" op="=" />
+        <SplineElement x="30" y="0.516" op="=" />
+        <SplineElement x="40" y="0.9" op="=" />
+        <SplineElement x="42.5" y="0.97" op="=" />
+        <SplineElement x="45" y="1" op="=" />
+        <SplineElement x="75" y="1" op="=" />
+        <SplineElement x="85" y="0.9" op="=" />
+        <SplineElement x="95" y="0.5" op="=" />
+        <SplineElement x="110" y="0.5" op="=" />
+      </SpeedDeploySpline>
+      <SpeedHarvestSpline numVertices="8">
+        <SplineElement x="0" y="0" op="=" />
+        <SplineElement x="15" y="0" op="=" />
+        <SplineElement x="16" y="0.0126" op="=" />
+        <SplineElement x="17" y="0.0377" op="=" />
+        <SplineElement x="18" y="0.9623" op="=" />
+        <SplineElement x="19" y="0.9874" op="=" />
+        <SplineElement x="20" y="1" op="=" />
+        <SplineElement x="110" y="1" op="=" />
+      </SpeedHarvestSpline>
+      <ChargeDeploySpline numVertices="9">
+        <SplineElement x="0" y="0.3" op="=" />
+        <SplineElement x="0.0298295449" y="0.3207547" op="=" />
+        <SplineElement x="0.0454545468" y="0.352201253" op="=" />
+        <SplineElement x="0.06392045" y="0.440251559" op="=" />
+        <SplineElement x="0.07386363" y="0.5534591" op="=" />
+        <SplineElement x="0.078125" y="0.8050314" op="=" />
+        <SplineElement x="0.08806818" y="0.918239" op="=" />
+        <SplineElement x="0.1" y="1" op="=" />
+        <SplineElement x="1" y="1.0" op="=" />
+      </ChargeDeploySpline>
+      <BaseWearRateES value="1.3E-05" />
+      <ChargeESWearRateSpline numVertices="2">
+        <SplineElement x="0" y="0" op="=" />
+        <SplineElement x="1" y="1" op="=" />
+      </ChargeESWearRateSpline>
+      <ESWearCapacityModifierSpline numVertices="3">
+        <SplineElement x="0" y="1.0" op="=" />
+        <SplineElement x="0.5" y="1" op="=" />
+        <SplineElement x="1.0" y="0.5" op="=" />
+      </ESWearCapacityModifierSpline>
+      <SpeedESWearRateSpline numVertices="3">
+        <SplineElement x="0" y="0" op="=" />
+        <SplineElement x="9.0" y="0.0" op="=" />
+        <SplineElement x="10.0" y="1.0" op="=" />
+      </SpeedESWearRateSpline>
+      <BaseWearRateMGUK value="5E-05" />
+      <DeploymentMGUKDamageRateSpline numVertices="2">
+        <SplineElement x="0" y="0" op="=" />
+        <SplineElement x="1" y="1" op="=" />
+      </DeploymentMGUKDamageRateSpline>
+      <MGUKDamageMGUKHarvestEfficiencySpline numVertices="3">
+        <SplineElement x="0" y="1.0" op="=" />
+        <SplineElement x="0.5" y="1" op="=" />
+        <SplineElement x="1" y="0.5" op="=" />
+      </MGUKDamageMGUKHarvestEfficiencySpline>
+    </Common>
+    <Mode name="0">
+      <Name value="None" />
+      <FirstGearModifier value="0.0" />
+      <SecondGearModifier value="0.0" />
+      <ThirdGearModifier value="0.0" />
+      <FourthGearModifier value="0.0" />
+      <FifthGearModifier value="0.0" />
+      <SixthGearModifier value="0.0" />
+      <SeventhGearModifier value="0.0" />
+      <EighthGearModifier value="0.0" />
+    </Mode>
+    <Mode name="1">
+      <Name value="Low" />
+      <FirstGearModifier value="0.0" />
+      <SecondGearModifier value="0.0" />
+      <ThirdGearModifier value="0.15" />
+      <FourthGearModifier value="0.15" />
+      <FifthGearModifier value="0.15" />
+      <SixthGearModifier value="0.15" />
+      <SeventhGearModifier value="0.15" />
+      <EighthGearModifier value="0.15" />
+    </Mode>
+    <Mode name="2">
+      <Name value="Medium" />
+      <FirstGearModifier value="0.0" />
+      <SecondGearModifier value="0.0" />
+      <ThirdGearModifier value="0.275" />
+      <FourthGearModifier value="0.275" />
+      <FifthGearModifier value="0.275" />
+      <SixthGearModifier value="0.275" />
+      <SeventhGearModifier value="0.275" />
+      <EighthGearModifier value="0.275" />
+    </Mode>
+    <Mode name="3">
+      <Name value="High" />
+      <FirstGearModifier value="0.0" />
+      <SecondGearModifier value="0.0" />
+      <ThirdGearModifier value="0.45" />
+      <FourthGearModifier value="0.45" />
+      <FifthGearModifier value="0.45" />
+      <SixthGearModifier value="0.425" />
+      <SeventhGearModifier value="0.4" />
+      <EighthGearModifier value="0.4" />
+    </Mode>
+    <Mode name="4">
+      <Name value="Overtake" />
+      <FirstGearModifier value="0.0" />
+      <SecondGearModifier value="0.0" />
+      <ThirdGearModifier value="0.45" />
+      <FourthGearModifier value="0.45" />
+      <FifthGearModifier value="0.5" />
+      <SixthGearModifier value="0.55" />
+      <SeventhGearModifier value="0.6" />
+      <EighthGearModifier value="0.65" />
+    </Mode>
+    <Mode name="5">
+      <Name value="Hotlap" />
+      <FirstGearModifier value="0" />
+      <SecondGearModifier value="0.6" />
+      <ThirdGearModifier value="0.6" />
+      <FourthGearModifier value="0.6" />
+      <FifthGearModifier value="0.6" />
+      <SixthGearModifier value="0.55" />
+      <SeventhGearModifier value="0.5" />
+      <EighthGearModifier value="0.5" />
+    </Mode>
+  </EnergyRecoverySystem>
+  <Upgrade name="very_low">
+    <F1Aero>
+      <m_aero_cd_min value="0.92" op="*" />
+      <m_aero_cd_max value="0.92" op="*" />
+      <m_aero_front_cl_maxf_maxr value="0.8" op="*" />
+      <m_aero_front_cl_maxf_minr value="0.8" op="*" />
+      <m_aero_front_cl_minf_maxr value="0.8" op="*" />
+      <m_aero_front_cl_minf_minr value="0.8" op="*" />
+      <m_aero_rear_cl_maxf_maxr value="0.8" op="*" />
+      <m_aero_rear_cl_maxf_minr value="0.8" op="*" />
+      <m_aero_rear_cl_minf_maxr value="0.8" op="*" />
+      <m_aero_rear_cl_minf_minr value="0.8" op="*" />
+    </F1Aero>
+    <F1Tuning>
+      <AeroCoeffDragMinLowerBound value="0.82" />
+      <AeroCoeffDragMinUpperBound value="1.179989" />
+      <AeroCoeffDragMaxLowerBound value="0.8" />
+      <AeroCoeffDragMaxUpperBound value="1.2" />
+      <AeroFrontCoeffLiftMaxFrontMaxRearLowerBound value="0.9199916" />
+      <AeroFrontCoeffLiftMaxFrontMaxRearUpperBound value="1.08" />
+      <AeroFrontCoeffLiftMaxFrontMinRearLowerBound value="0.92" />
+      <AeroFrontCoeffLiftMaxFrontMinRearUpperBound value="1.08" />
+      <AeroFrontCoeffLiftMinFrontMaxRearLowerBound value="0.92" />
+      <AeroFrontCoeffLiftMinFrontMaxRearUpperBound value="1.08" />
+      <AeroFrontCoeffLiftMinFrontMinRearLowerBound value="0.92" />
+      <AeroFrontCoeffLiftMinFrontMinRearUpperBound value="1.079957" />
+      <AeroRearCoeffLiftMaxFrontMaxRearLowerBound value="0.92" />
+      <AeroRearCoeffLiftMaxFrontMaxRearUpperBound value="1.08" />
+      <AeroRearCoeffLiftMaxFrontMinRearLowerBound value="0.92" />
+      <AeroRearCoeffLiftMaxFrontMinRearUpperBound value="1.08" />
+      <AeroRearCoeffLiftMinFrontMaxRearLowerBound value="0.92" />
+      <AeroRearCoeffLiftMinFrontMaxRearUpperBound value="1.08" />
+      <AeroRearCoeffLiftMinFrontMinRearLowerBound value="0.92" />
+      <AeroRearCoeffLiftMinFrontMinRearUpperBound value="1.08" />
+    </F1Tuning>
+  </Upgrade>
+  <Upgrade name="medium">
+    <F1Aero>
+      <m_aero_cd_min value="1.08" op="*" />
+      <m_aero_cd_max value="1.08" op="*" />
+      <m_aero_front_cl_maxf_maxr value="1.06" op="*" />
+      <m_aero_front_cl_maxf_minr value="1.06" op="*" />
+      <m_aero_front_cl_minf_maxr value="1.06" op="*" />
+      <m_aero_front_cl_minf_minr value="1.06" op="*" />
+      <m_aero_rear_cl_maxf_maxr value="1.06" op="*" />
+      <m_aero_rear_cl_maxf_minr value="1.06" op="*" />
+      <m_aero_rear_cl_minf_maxr value="1.06" op="*" />
+      <m_aero_rear_cl_minf_minr value="1.06" op="*" />
+    </F1Aero>
+    <F1Tuning>
+      <AeroCoeffDragMinLowerBound value="0.82" />
+      <AeroCoeffDragMinUpperBound value="1.179989" />
+      <AeroCoeffDragMaxLowerBound value="0.8" />
+      <AeroCoeffDragMaxUpperBound value="1.2" />
+      <AeroFrontCoeffLiftMaxFrontMaxRearLowerBound value="0.9199916" />
+      <AeroFrontCoeffLiftMaxFrontMaxRearUpperBound value="1.08" />
+      <AeroFrontCoeffLiftMaxFrontMinRearLowerBound value="0.92" />
+      <AeroFrontCoeffLiftMaxFrontMinRearUpperBound value="1.08" />
+      <AeroFrontCoeffLiftMinFrontMaxRearLowerBound value="0.92" />
+      <AeroFrontCoeffLiftMinFrontMaxRearUpperBound value="1.08" />
+      <AeroFrontCoeffLiftMinFrontMinRearLowerBound value="0.92" />
+      <AeroFrontCoeffLiftMinFrontMinRearUpperBound value="1.079957" />
+      <AeroRearCoeffLiftMaxFrontMaxRearLowerBound value="0.92" />
+      <AeroRearCoeffLiftMaxFrontMaxRearUpperBound value="1.08" />
+      <AeroRearCoeffLiftMaxFrontMinRearLowerBound value="0.92" />
+      <AeroRearCoeffLiftMaxFrontMinRearUpperBound value="1.08" />
+      <AeroRearCoeffLiftMinFrontMaxRearLowerBound value="0.92" />
+      <AeroRearCoeffLiftMinFrontMaxRearUpperBound value="1.08" />
+      <AeroRearCoeffLiftMinFrontMinRearLowerBound value="0.92" />
+      <AeroRearCoeffLiftMinFrontMinRearUpperBound value="1.08" />
+    </F1Tuning>
+  </Upgrade>
+  <Upgrade name="very_high">
+    <Steering>
+      <MaxSteeringLock value="0.38" />
+    </Steering>
+    <F1Aero>
+      <m_aero_cd_min value="1.13" op="*" />
+      <m_aero_cd_max value="1.13" op="*" />
+      <m_aero_front_cl_maxf_maxr value="1.07" op="*" />
+      <m_aero_front_cl_maxf_minr value="1.07" op="*" />
+      <m_aero_front_cl_minf_maxr value="1.07" op="*" />
+      <m_aero_front_cl_minf_minr value="1.07" op="*" />
+      <m_aero_rear_cl_maxf_maxr value="1.07" op="*" />
+      <m_aero_rear_cl_maxf_minr value="1.07" op="*" />
+      <m_aero_rear_cl_minf_maxr value="1.07" op="*" />
+      <m_aero_rear_cl_minf_minr value="1.07" op="*" />
+    </F1Aero>
+    <F1Assists>
+      <LockProportionVSSpeedSpline numVertices="13">
+        <SplineElement x="0.000000" y="1" op="=" />
+        <SplineElement x="13.5" y="1" op="=" />
+        <SplineElement x="21.4905148" y="0.6" op="=" />
+        <SplineElement x="29" y="0.442" op="=" />
+        <SplineElement x="37" y="0.34" op="=" />
+        <SplineElement x="44.5" y="0.26775" op="=" />
+        <SplineElement x="52.500000" y="0.221" op="=" />
+        <SplineElement x="60" y="0.187" op="=" />
+        <SplineElement x="67.5" y="0.1615" op="=" />
+        <SplineElement x="75" y="0.14875" op="=" />
+        <SplineElement x="82.500000" y="0.136" op="=" />
+        <SplineElement x="90.000000" y="0.1275" op="=" />
+        <SplineElement x="130" y="0.1275" op="=" />
+      </LockProportionVSSpeedSpline>
+    </F1Assists>
+    <F1Tuning>
+      <AeroCoeffDragMinLowerBound value="0.82" />
+      <AeroCoeffDragMinUpperBound value="1.179989" />
+      <AeroCoeffDragMaxLowerBound value="0.8" />
+      <AeroCoeffDragMaxUpperBound value="1.2" />
+      <AeroFrontCoeffLiftMaxFrontMaxRearLowerBound value="0.9199916" />
+      <AeroFrontCoeffLiftMaxFrontMaxRearUpperBound value="1.08" />
+      <AeroFrontCoeffLiftMaxFrontMinRearLowerBound value="0.92" />
+      <AeroFrontCoeffLiftMaxFrontMinRearUpperBound value="1.08" />
+      <AeroFrontCoeffLiftMinFrontMaxRearLowerBound value="0.92" />
+      <AeroFrontCoeffLiftMinFrontMaxRearUpperBound value="1.08" />
+      <AeroFrontCoeffLiftMinFrontMinRearLowerBound value="0.92" />
+      <AeroFrontCoeffLiftMinFrontMinRearUpperBound value="1.079957" />
+      <AeroRearCoeffLiftMaxFrontMaxRearLowerBound value="0.92" />
+      <AeroRearCoeffLiftMaxFrontMaxRearUpperBound value="1.08" />
+      <AeroRearCoeffLiftMaxFrontMinRearLowerBound value="0.92" />
+      <AeroRearCoeffLiftMaxFrontMinRearUpperBound value="1.08" />
+      <AeroRearCoeffLiftMinFrontMaxRearLowerBound value="0.92" />
+      <AeroRearCoeffLiftMinFrontMaxRearUpperBound value="1.08" />
+      <AeroRearCoeffLiftMinFrontMinRearLowerBound value="0.92" />
+      <AeroRearCoeffLiftMinFrontMinRearUpperBound value="1.08" />
+    </F1Tuning>
+    <EnergyRecoverySystem numCommonTypes="1">
+      <Common>
+        <SpeedDeploySpline numVertices="10">
+          <SplineElement x="0" y="0" op="=" />
+          <SplineElement x="22" y="0" op="=" />
+          <SplineElement x="22.6071167" y="0.026041666" op="=" />
+          <SplineElement x="23.08642" y="0.046875" op="=" />
+          <SplineElement x="23.5657234" y="0.0677083358" op="=" />
+          <SplineElement x="31.7937546" y="0.9479167" op="=" />
+          <SplineElement x="32.35294" y="0.96875" op="=" />
+          <SplineElement x="32.75236" y="0.9895833" op="=" />
+          <SplineElement x="33.33" y="1" op="=" />
+          <SplineElement x="110" y="1" op="=" />
+        </SpeedDeploySpline>
+      </Common>
+    </EnergyRecoverySystem>
+  </Upgrade>
+  <Upgrade name="radUpgradeEngine">
+    <Engine>
+      <RevsPowerSpline numVertices="18">
+        <SplineElement x="0" y="0" op="+" />
+        <SplineElement x="0" y="791.0146" op="+" />
+        <SplineElement x="0" y="2002.898" op="+" />
+        <SplineElement x="0" y="3771.645" op="+" />
+        <SplineElement x="0" y="6758.008" op="+" />
+        <SplineElement x="0" y="10996.77" op="+" />
+        <SplineElement x="0" y="16657.11" op="+" />
+        <SplineElement x="0" y="23901.33" op="+" />
+        <SplineElement x="0" y="32009.56" op="+" />
+        <SplineElement x="0" y="39509.69" op="+" />
+        <SplineElement x="0" y="47300.97" op="+" />
+        <SplineElement x="0" y="52359.97" op="+" />
+        <SplineElement x="0" y="54396.31" op="+" />
+        <SplineElement x="0" y="55927.5" op="+" />
+        <SplineElement x="0" y="55730" op="+" />
+        <SplineElement x="0" y="51614.75" op="+" />
+        <SplineElement x="0" y="43519.81" op="+" />
+        <SplineElement x="0" y="34482.88" op="+" />
+      </RevsPowerSpline>
+    </Engine>
+    <FuelTank>
+      <FuelBsfcMax value="0.925" op="*" />
+      <FuelBsfcMin value="0.925" op="*" />
+      <FuelOptimalTorque value="53" op="+" />
+    </FuelTank>
+  </Upgrade>
+  <Upgrade name="radUpgradeFuelConsumption">
+    <FuelECU>
+      <FuelBurnScaleLean value="0.8500001" op="*" />
+      <FuelBurnScaleStandard value="0.85" op="*" />
+      <FuelBurnScaleRich value="0.85" op="*" />
+      <FuelBurnScaleMax value="0.85" op="*" />
+    </FuelECU>
+  </Upgrade>
+  <Upgrade name="radUpgradeERS">
+    <EnergyRecoverySystem numCommonTypes="1">
+      <Common>
+        <EnergyHarvestEfficencyMGUH value="1.5" op="*" />
+        <EnergyHarvestEfficencyMGUK value="1.5" op="*" />
+      </Common>
+    </EnergyRecoverySystem>
+  </Upgrade>
+  <Upgrade name="radUpgradeFrontDownforce">
+    <F1Aero>
+      <m_aero_front_cl_maxf_maxr value="1.14" op="*" />
+      <m_aero_front_cl_maxf_minr value="1.14" op="*" />
+      <m_aero_front_cl_minf_maxr value="1.14" op="*" />
+      <m_aero_front_cl_minf_minr value="1.14" op="*" />
+    </F1Aero>
+  </Upgrade>
+  <Upgrade name="radUpgradeRearDownforce">
+    <F1Aero>
+      <m_aero_rear_cl_maxf_maxr value="1.15" op="*" />
+      <m_aero_rear_cl_maxf_minr value="1.15" op="*" />
+      <m_aero_rear_cl_minf_maxr value="1.15" op="*" />
+      <m_aero_rear_cl_minf_minr value="1.15" op="*" />
+    </F1Aero>
+  </Upgrade>
+  <Upgrade name="radUpgradeDrag">
+    <F1Aero>
+      <m_aero_cd_min value="0.9" op="*" />
+      <m_aero_cd_max value="0.9" op="*" />
+    </F1Aero>
+  </Upgrade>
+  <Upgrade name="radUpgradeDRS">
+    <F1Aero>
+      <m_aero_wing_rear_drag value="0.94" op="*" />
+    </F1Aero>
+  </Upgrade>
+  <Upgrade name="radUpgradeWeightReduction">
+    <Chassis>
+      <Mass value="24" op="-" />
+    </Chassis>
+  </Upgrade>
+  <Upgrade name="radUpgradeWeightRedistribution">
+    <Chassis>
+      <COMY value="0.04" op="+" />
+    </Chassis>
+  </Upgrade>
+  <Upgrade name="radUpgradeTyreWear">
+    <SuspensionSystem numTyreTypes="2">
+      <Tyre name="Rear">
+        <UpgradeWearFactor value="0.8" op="*" />
+      </Tyre>
+      <Tyre name="Front">
+        <UpgradeWearFactor value="0.8" op="*" />
+      </Tyre>
+    </SuspensionSystem>
+  </Upgrade>
+  <Upgrade name="radUpgradeBrakes">
+    <BrakeECU>
+      <BrakeFront value="1.4" op="*" />
+      <BrakeRear value="1.4" op="*" />
+      <BrakeFrontBackwards value="1.4" op="*" />
+      <BrakeRearBackwards value="1.4" op="*" />
+      <BrakeFrontForwards value="1.4" op="*" />
+      <BrakeRearForwards value="1.4" op="*" />
+    </BrakeECU>
+  </Upgrade>
+  <Upgrade name="radUpgradeWearTC">
+    <Engine>
+      <WearTCRate value="0.5" op="*" />
+    </Engine>
+  </Upgrade>
+  <Upgrade name="radUpgradeWearES">
+    <EnergyRecoverySystem numCommonTypes="1">
+      <Common>
+        <BaseWearRateES value="0.5" op="*" />
+      </Common>
+    </EnergyRecoverySystem>
+  </Upgrade>
+  <Upgrade name="radUpgradeWearMGUK">
+    <EnergyRecoverySystem numCommonTypes="1">
+      <Common>
+        <BaseWearRateMGUK value="0.5" op="*" />
+      </Common>
+    </EnergyRecoverySystem>
+  </Upgrade>
+  <Upgrade name="radUpgradeWearMGUH">
+    <Engine>
+      <WearMGUHRate value="0.5" op="*" />
+    </Engine>
+  </Upgrade>
+  <Upgrade name="radUpgradeWearCE">
+    <Engine>
+      <WearCERate value="0.5" op="*" />
+      <WearCEDVibrationRate value="0.5" op="*" />
+    </Engine>
+  </Upgrade>
+  <Upgrade name="radUpgradeWearICE">
+    <Engine>
+      <WearICERate value="0.5" op="*" />
+    </Engine>
+  </Upgrade>
+  <Upgrade name="radUpgradeWearGearBox">
+    <GearBox>
+      <DamageRateMidShift value="0.5" op="*" />
+    </GearBox>
+  </Upgrade>
+</VTF>
