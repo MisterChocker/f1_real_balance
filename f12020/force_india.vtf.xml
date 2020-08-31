@@ -654,10 +654,10 @@
     <m_aeroSlipStreamAirDensityScaleLift value="0.85" />
     <m_aeroSlipStreamAirDensityScaleDrag value="0.9" />
     <m_aeroSlipStreamCarWidth value="1.5" />
-    <m_aero_rear_cl_maxf_maxr value="2.32349982" />
-    <m_aero_rear_cl_maxf_minr value="2.41800013" />
-    <m_aero_rear_cl_minf_maxr value="2.32349982" />
-    <m_aero_rear_cl_minf_minr value="2.41800013" />
+    <m_aero_rear_cl_maxf_maxr value="2.34349982" />
+    <m_aero_rear_cl_maxf_minr value="2.45800013" />
+    <m_aero_rear_cl_minf_maxr value="2.34349982" />
+    <m_aero_rear_cl_minf_minr value="2.45800013" />
     <m_aero_rear_wing_loss value="0.000000" />
     <m_aero_wing_front_drag value="1.000000" />
     <m_aero_wing_front_force value="1.000000" />
