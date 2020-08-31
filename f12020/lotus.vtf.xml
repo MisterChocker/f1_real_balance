@@ -248,10 +248,10 @@
     <FuelBurnScaleStandard value="1.000000" />
     <FuelBurnScaleRich value="1.3" />
     <FuelBurnScaleMax value="1.2" />
-    <FuelPowerScaleLean value="0.99" />
-    <FuelPowerScaleStandard value="1.030000" />
-    <FuelPowerScaleRich value="1.06" />
-    <FuelPowerScaleMax value="1.118" />
+    <FuelPowerScaleLean value="0.97" />
+    <FuelPowerScaleStandard value="1.010000" />
+    <FuelPowerScaleRich value="1.04" />
+    <FuelPowerScaleMax value="1.098" />
     <FuelRevsScaleLean value="1" />
     <FuelRevsScaleStandard value="1" />
     <FuelRevsScaleRich value="1" />
@@ -642,10 +642,10 @@
   <F1Aero>
     <m_aero_cd_min value="1.0282" />
     <m_aero_cd_max value="0.988" />
-    <m_aero_front_cl_maxf_maxr value="2.08400013" />
-    <m_aero_front_cl_maxf_minr value="2.08400013" />
-    <m_aero_front_cl_minf_maxr value="1.98799994" />
-    <m_aero_front_cl_minf_minr value="1.98799994" />
+    <m_aero_front_cl_maxf_maxr value="2.10400013" />
+    <m_aero_front_cl_maxf_minr value="2.10400013" />
+    <m_aero_front_cl_minf_maxr value="2.00799994" />
+    <m_aero_front_cl_minf_minr value="2.00799994" />
     <m_aero_front_wing_loss value="0.5" />
     <m_aero_max_front_height value="-0.015" />
     <m_aero_min_front_height value="0.045" />
@@ -654,10 +654,10 @@
     <m_aeroSlipStreamAirDensityScaleLift value="0.85" />
     <m_aeroSlipStreamAirDensityScaleDrag value="0.9" />
     <m_aeroSlipStreamCarWidth value="1.5" />
-    <m_aero_rear_cl_maxf_maxr value="2.228" />
-    <m_aero_rear_cl_maxf_minr value="2.32" />
-    <m_aero_rear_cl_minf_maxr value="2.228" />
-    <m_aero_rear_cl_minf_minr value="2.32" />
+    <m_aero_rear_cl_maxf_maxr value="2.288" />
+    <m_aero_rear_cl_maxf_minr value="2.38" />
+    <m_aero_rear_cl_minf_maxr value="2.288" />
+    <m_aero_rear_cl_minf_minr value="2.38" />
     <m_aero_rear_wing_loss value="0.000000" />
     <m_aero_wing_front_drag value="1.000000" />
     <m_aero_wing_front_force value="1.000000" />
