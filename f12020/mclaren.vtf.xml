@@ -248,10 +248,10 @@
     <FuelBurnScaleStandard value="1.000000" />
     <FuelBurnScaleRich value="1.3" />
     <FuelBurnScaleMax value="1.2" />
-    <FuelPowerScaleLean value="0.992" />
-    <FuelPowerScaleStandard value="1.032000" />
-    <FuelPowerScaleRich value="1.062" />
-    <FuelPowerScaleMax value="1.0970" />
+    <FuelPowerScaleLean value="0.998" />
+    <FuelPowerScaleStandard value="1.038000" />
+    <FuelPowerScaleRich value="1.068" />
+    <FuelPowerScaleMax value="1.0980" />
     <FuelRevsScaleLean value="1" />
     <FuelRevsScaleStandard value="1" />
     <FuelRevsScaleRich value="1" />
