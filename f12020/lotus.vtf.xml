@@ -248,10 +248,10 @@
     <FuelBurnScaleStandard value="1.000000" />
     <FuelBurnScaleRich value="1.3" />
     <FuelBurnScaleMax value="1.2" />
-    <FuelPowerScaleLean value="0.962" />
-    <FuelPowerScaleStandard value="1.00200" />
-    <FuelPowerScaleRich value="1.032" />
-    <FuelPowerScaleMax value="1.082" />
+    <FuelPowerScaleLean value="0.961" />
+    <FuelPowerScaleStandard value="1.00100" />
+    <FuelPowerScaleRich value="1.031" />
+    <FuelPowerScaleMax value="1.081" />
     <FuelRevsScaleLean value="1" />
     <FuelRevsScaleStandard value="1" />
     <FuelRevsScaleRich value="1" />
@@ -323,7 +323,7 @@
     </ATCStrengthPeakSlipFactorSplineWet>
   </BrakeECU>
   <Chassis>
-    <Mass value="731.2" />
+    <Mass value="731.15" />
     <MOIX value="939" />
     <MOIY value="2248" />
     <MOIZ value="138" />
