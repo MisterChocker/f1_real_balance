@@ -1,6 +1,6 @@
 # f1_real_balance
 
-This mod updates the f12020 vehicle performance to the latest gp.
+This mod updates the f12020 vehicle performance to mathe the latest gp qualifying results.
 
 ## Download
 
