@@ -324,7 +324,7 @@
     </ATCStrengthPeakSlipFactorSplineWet>
   </BrakeECU>
   <Chassis>
-    <Mass value="758" />
+    <Mass value="754" />
     <MOIX value="939" />
     <MOIY value="2248" />
     <MOIZ value="138" />
