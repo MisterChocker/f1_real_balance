@@ -1,6 +1,6 @@
 # Formula1 2020 Realistic Performance Balance Mod
 
-This mod updates the f12020 vehicle performance to mathe the latest gp qualifying results.
+This mod updates the f12020 vehicle performance to match the latest gp qualifying results.
 
 ## Download
 
