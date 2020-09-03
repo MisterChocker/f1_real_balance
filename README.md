@@ -4,8 +4,8 @@ This mod updates the f12020 vehicle performance to mathe the latest gp qualifyin
 
 ## Download
 
-Download latest release https://github.com/MisterChocker/f1_real_balance/releases/latest
-or choose the version you prefere https://github.com/MisterChocker/f1_real_balance/releases/
+Download the latest release https://github.com/MisterChocker/f1_real_balance/releases/latest
+or choose a version you prefere https://github.com/MisterChocker/f1_real_balance/releases/
 
 ## Installation
 
