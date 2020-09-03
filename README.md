@@ -1,5 +1,7 @@
 # f1_real_balance
 
+This mod updates the f12020 vehicle performance to the latest gp.
+
 ## Download
 
 Download latest release https://github.com/MisterChocker/f1_real_balance/releases/latest
