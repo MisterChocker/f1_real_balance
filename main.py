@@ -18,7 +18,7 @@ def editor(ele):
 
 
 files = [
-    "ferrari"
+    "ferrari",
     "force_india",
     "haas",
     "lotus",
