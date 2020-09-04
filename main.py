@@ -23,6 +23,7 @@ files = [
     "haas",
     "lotus",
     "mclaren",
+    "mercedes",
     "myteam_ferrari",
     "myteam_honda",
     "myteam_mercedes",
